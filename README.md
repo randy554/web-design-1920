@@ -164,7 +164,74 @@ Lees hier de [criteria van opdracht 1](Opdracht1.md)
 
 
 
+## Week 1 (kennismaking 8 April) 
 
+### Wie is Marijn Meijles)
+
+Marijn is een programmeur met een motorische stoornis. Marijn omschrijft zichzelf als een bedreven persoon. Een analytisch persoon die een hekel heeft aan mensen die niet de tijd nemen om na te 
+denken. Kwa humeur is hij meestal in een opgewekte stemming. Zijn voorkeur in muziek gaat uit naar metal. Dat is de reden
+waarom je hem tegen het lijf zou kunnen lopen bij Rockcity Eindhoven. Wat mij zelf opviel tijdens de interview is dat hij
+een goed gevoel voor humor heeft.   
+
+### Testsessie
+Op 8 April om 16:00 uur had mijn groep en ik een kennismakingsgesprek met Marijn Meijles. Voorafgaand hadden wij
+gezamenlijk een aantal vragen bedacht die wij relevant achtte. Om meer inzicht te krijgen hadden wij ook naar de 
+bevindingen gekeken van studenten van vorig jaar. Verder hadden wij als groep één prototype die door Marijn gestest moest 
+worden. Ook hadden wij één persoon aangewezen die al onze vragen via de webcam & mic ging stellen. In het begin van het 
+gesprek werden er vragen gesteld om Marijn als persoon beter te leren kennen. Dit waren vragen als hoe hij zichzelf zou 
+omschrijven, wat hij in zijn vrije tijd doet en wat zijn voorkeur in muziek is. Na dit werden er vragen gesteld over zijn
+gebruik van apparatuur en software. Zo gaf hij aan gebruik te maken van een Macbook en een iPhone XR die draaien op 
+OS X en iOS. Ook gaf hij aan voornamelijk gebruik te maken van Google Chrome en Safari. Hij gaf aan dat hij voor 
+testdoeleinde bereid was om andere browsers te installeren. Hierna volgde er vragen die over hij op dit moment navigeert
+op websites. Hierbij vertelde hij dat hij veel gebruik maakt zijn linkderhand aan de rechterkant van het toetsenbord. En 
+dat hij voornamelijk toetsen gebruikt om te navigeren. Hij gaf aan weinig gebruik te maken van de TAB toets maar in plaats
+daarvan de Spacebar Toets. Ook gaf hij aan gebruik maakt van stickey keys (hierbij blijft een toets ingedrukt totdat er
+een vervolg toets wordt ingedrukt).
+
+Na dat we door al onze vragen waren, ging we verder met het testen van de prototype. De prototype bestond uit zes verchillende
+date & timepickers. Daarbij observeerde wij hoe Marijn met de verschillende input types omging, zowel op de site en webcam. Een
+opvallende bevinden was dat hij toch wel meer gebruik maakt van de trackpad dan dat hij eerder aangaf in de interview. Zolang
+de targets groot genoeg waren was dit minder een probleem om hier gebruik van te maken. Een ander bevinding was dat er niet
+altijd goede feedback was na het uitvoeren van een handeling of dat er geen toelichting stond bij die input waardoor de opdracht
+af en toe onduidelijk kon zijn.    
+
+
+### Hoe ging de test
+
+Begin van de test hadden we wat problemen om Marijn te verstaan. Dit werdt verbeterd veel beter toen hij van
+plek veranderde. Het werken met Jitsi was niet echt een probleem voor Marijn, hij kon vrij makkelijk de mic gebruiken en zijn
+scherm delen. Het was jammer dat wij zijn handen niet konden zien bewegen op het toestsenbord en trackpad. Het prototype
+was op zich een goed idee. Marijn met verschillende datepickers laten werken en dit observeren. Helaas was onze prototype
+niet helemaal goed getest waardoor bepaalde onderdelen niet helemaal naar behoren werkte. Voor de volgende keer zou het handig 
+zijn als:
+
+- er een extra camera aanwezig zou zijn die zijn handbewegingen op het toetsenbord en trackpad kan vastleggen
+- de prototype volledig getest wordt op fouten voor gebruik
+- tijdens de prototype test gebruik gemaakt kan worden van screenrecording
+- tijd voor handelingen in de gaten gehouden kan worden
+
+# Exclusive design
+
+### 1. Study situation
+
+Marijn heeft een motorisch stoornis, kan zich daardoor wat lastiger bewegen voor hem. Hij maakt het liefst gebruik van zijn
+een aantal toesten op zijn keyboard, ondersteund door zijn trackpad.
+
+### 2. Ignore conventions
+
+Ik moet dit nog bevestigd hebben wat de gebruikelijke user scenario is. Gebruikt hij dit dagelijks of in 1x in de zoveel tijd?
+
+### 3. Prioritise identity
+
+Ik wil hier iets met zijn voorkeur in muziek gaan doen.
+
+### 4. Add nonsense
+
+
+ 
+  
+
+   
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
@@ -183,3 +250,5 @@ Lees hier de [criteria van opdracht 1](Opdracht1.md)
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+
+
