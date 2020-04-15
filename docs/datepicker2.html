@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Marijn datepicker</title>
+</head>
+<body>
+
+<header>
+    <h1>Datepicker - V2</h1>
+    <h2 id="datumVandaag">:</h2>
+</header>
+
+<h3>Vertrek</h3>
+
+<form action="">
+
+    <label for="vandaag">
+
+        <span>h</span>
+        <button id="vandaag">Vandaag</button>
+<!--        <input type="radio" id="vandaag" name="vandaagMorgen" value="vandaag">-->
+    </label>
+
+    of
+
+    <label for="morgen">
+
+        <span>j</span>
+        <button id="morgen">Morgen</button>
+<!--        <input type="radio" id="morgen" name="vandaagMorgen" value="morgen">-->
+    </label>
+
+    of
+
+    <label for="dagen">
+
+        <span>k</span>
+
+<!--        <select name="dagen" id="dagen">-->
+<!--            <option value="dag1">Dag 1</option>-->
+<!--            <option value="dag2">Dag 2</option>-->
+<!--            <option value="dag3" selected>Dag 3</option>-->
+<!--            <option value="dag4">Dag 4</option>-->
+<!--            <option value="dag5">Dag 5</option>-->
+<!--            <option value="dag6">Dag 6</option>-->
+<!--            <option value="dag7">Dag 7</option>-->
+<!--        </select>-->
+
+        <select name="dagen" id="dagen">
+            <option value="dag1" disabled>Maandag</option>
+            <option value="dag2" disabled>Dinsdag</option>
+            <option value="dag3" selected>Woensdag</option>
+            <option value="dag4">Donderdag</option>
+            <option value="dag5">Vrijdag</option>
+            <option value="dag6">Zaterdag</option>
+            <option value="dag7">Zondag</option>
+        </select>
+
+    </label>
+
+    <label for="maanden">
+
+        <span>l</span>
+
+        <select name="maanden" id="maanden">
+            <option value="jan" disabled>Januari</option>
+            <option value="feb" disabled>Februari</option>
+            <option value="mar" disabled>Maart</option>
+            <option value="apr" selected>April</option>
+            <option value="mei">Mei</option>
+            <option value="jun">Juni</option>
+            <option value="jul">Juli</option>
+            <option value="aug">Augustus</option>
+            <option value="sep">September</option>
+            <option value="okt">Oktober</option>
+            <option value="nov">November</option>
+            <option value="dec">December</option>
+        </select>
+
+    </label>
+
+    <label for="tijd">
+
+        <span>;</span>
+
+        <!-- Van hoe laat tot hoe laat reist hij?    -->
+<!--        <select name="tijd" id="tijd">-->
+<!--            <option value="07:00" disabled>07:00</option>-->
+<!--            <option value="08:00" disabled>08:00</option>-->
+<!--            <option value="09:00" disabled>09:00</option>-->
+<!--            <option value="10:00" disabled>10:00</option>-->
+<!--            <option value="11:00" disabled>11:00</option>-->
+<!--            <option value="12:00" disabled>12:00</option>-->
+<!--            <option value="13:00" disabled>13:00</option>-->
+<!--            <option value="14:00" disabled>14:00</option>-->
+<!--            <option value="15:00" disabled>15:00</option>-->
+<!--            <option value="16:00" selected>16:00</option>-->
+<!--            <option value="17:00">17:00</option>-->
+<!--            <option value="18:00">18:00</option>-->
+<!--            <option value="19:00">19:00</option>-->
+<!--            <option value="20:00">20:00</option>-->
+<!--            <option value="21:00">21:00</option>-->
+<!--        </select>-->
+
+
+                <!-- Van hoe laat tot hoe laat reist hij?    -->
+        <select name="tijd" id="tijd">
+            <option value="1">over: +1 uur</option>
+            <option id="2uur" value="2">over: +2 uur</option>
+            <option value="3">over: +3 uur</option>
+            <option value="4">over: +4 uur</option>
+            <option value="5">over: +5 uur</option>
+            <option value="6">over: +6 uur</option>
+            <option value="7">over: +7 uur</option>
+            <option value="8">over: +8 uur</option>
+            <option value="9">over: +9 uur</option>
+            <option value="10">over: +10 uur</option>
+        </select>
+
+    </label>
+
+    <label for="opslaan">
+
+        <span>'</span>
+        <button id="opslaan">Verstuur</button>
+    </label>
+
+</form>
+
+<aside>
+<!--    <p>In dropdown lijst:</p>-->
+<!--    <p>i = naar startwaarde in de lijst</p>-->
+<!--    <p>m = naar eindwaarde in de lijst</p>-->
+</aside>
+
+<div id="bericht">
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
