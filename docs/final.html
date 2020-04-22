@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/final.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Marijn reisplanner</title>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+<!--    <h1>Marijn's reisplanner</h1>-->
+<!--    <img src="img/marijn_logo.png" alt="">-->
+<pre id="output">
+
+  __  __                  _     _           _                         _                 _
+ |  \/  |                (_)   (_)         ( )                       (_)               | |
+ | \  / |   __ _   _ __   _     _   _ __   |/   ___     _ __    ___   _   ___   _ __   | |   __ _   _ __    _ __     ___   _ __
+ | |\/| |  / _` | | '__| | |   | | | '_ \      / __|   | '__|  / _ \ | | / __| | '_ \  | |  / _` | | '_ \  | '_ \   / _ \ | '__|
+ | |  | | | (_| | | |    | |   | | | | | |     \__ \   | |    |  __/ | | \__ \ | |_) | | | | (_| | | | | | | | | | |  __/ | |
+ |_|  |_|  \__,_| |_|    |_|   | | |_| |_|     |___/   |_|     \___| |_| |___/ | .__/  |_|  \__,_| |_| |_| |_| |_|  \___| |_|
+                              _/ |                                             | |
+                             |__/                                              |_|
+</pre>
+</header>
+
+<!--<form action="">-->
+
+<!--    <input class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">-->
+
+<!--    spannaar-->
+
+<!--    <input class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">-->
+
+<!--    <label for="plan">-->
+
+<!--            <button id="plan">Plannen</button>-->
+
+<!--    </label>-->
+
+<!--</form>-->
+
+<form action="" class="formStyle">
+
+    <input class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
+
+    <span class="treinStops">naar</span>
+
+    <input class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
+
+</form>
+
+
+<!-- Menu -->
+<div class="tab">
+  <button id="vandaagMenuItem" class="tablinks" onfocus="openMenu(event,'Vandaag')" onclick="openMenu(event, 'Vandaag')">Vandaag</button>
+  <button id="morgenMenuItem" class="tablinks" onfocus="openMenu(event,'Morgen')" onclick="openMenu(event, 'Morgen')">Morgen</button>
+  <button id="andersMenuItem" class="tablinks" onfocus="openMenu(event,'Anders')" onclick="openMenu(event, 'Anders')">Anders</button>
+</div>
+
+<!-- Content -->
+
+<div id="Vandaag" class="tabcontent">
+
+    <form action="">
+
+        <label for="overTijd">
+
+            <!-- Van hoe laat tot hoe laat reist hij?    -->
+            <select name="overTijd" id="overTijd">
+                <option id="1uur" value="1">over: +1 uur</option>
+                <option id="2uur" value="2">over: +2 uur</option>
+<!--                <option value="3">over: +3 uur</option>-->
+<!--                <option value="4">over: +4 uur</option>-->
+<!--                <option value="5">over: +5 uur</option>-->
+<!--                <option value="6">over: +6 uur</option>-->
+<!--                <option value="7">over: +7 uur</option>-->
+<!--                <option value="8">over: +8 uur</option>-->
+<!--                <option value="9">over: +9 uur</option>-->
+<!--                <option value="10">over: +10 uur</option>-->
+            </select>
+
+        </label>
+
+        <label for="opslaan">
+
+    <!--            <span>'</span>-->
+            <button id="opslaan1">Plannen</button>
+
+        </label>
+
+    </form>
+
+</div>
+
+<div id="Morgen" class="tabcontent">
+
+    <form action="">
+
+
+        <label for="tijd">
+
+<!--            <span>;</span>-->
+
+            <!-- Van hoe laat tot hoe laat reist hij?    -->
+            <select name="tijd" id="tijd">
+                <option value="07:00" disabled>07:00</option>
+                <option value="08:00" disabled>08:00</option>
+                <option value="09:00" disabled>09:00</option>
+                <option value="10:00" disabled>10:00</option>
+                <option value="11:00" disabled>11:00</option>
+                <option value="12:00" disabled>12:00</option>
+                <option value="13:00" disabled>13:00</option>
+                <option value="14:00" disabled>14:00</option>
+                <option value="15:00" disabled>15:00</option>
+                <option value="16:00" selected>16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+                <option value="19:00">19:00</option>
+                <option value="20:00">20:00</option>
+                <option value="21:00">21:00</option>
+            </select>
+
+     </label>
+
+        <label for="opslaan">
+
+<!--            <span>'</span>-->
+            <button id="opslaan2">Plannen</button>
+
+        </label>
+
+    </form>
+
+</div>
+
+<div id="Anders" class="tabcontent">
+
+    <form action="">
+
+        <label for="anders">
+
+            <label for="andersDatum">Datum:
+                <input type="date" id="andersDatum" name="andersDatum">
+            </label>
+
+            <label for="andersTijd">Tijd:
+                <input type="time" id="andersTijd" name="andersTijd">
+            </label>
+
+        </label>
+
+    <!--    <button id="opslaan3">Plannen</button>-->
+
+        <label for="opslaan">
+
+            <button id="opslaan3">Plannen</button>
+
+        </label>
+
+    </form>
+
+</div>
+
+<div class="treinenBox">
+
+    <div class="treinRitInfo">
+
+        <header>
+            <h2>06:47 -> 07:35</h2>
+            <p>1:18</p>
+        </header>
+        <p>
+            <span class="vet">IC</span> Intercity + <span class="vet">IC</span>  Intercity
+        </p>
+
+    </div>
+
+    <div class="treinRitInfo">
+
+        <header>
+            <h2>06:58 -> 07:46</h2>
+            <p>1:18</p>
+        </header>
+        <p>
+            <span class="vet">IC</span> Intercity + <span class="vet">IC</span>  Intercity
+        </p>
+
+    </div>
+
+</div>
+
+<div id="id01" class="modal">
+
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+
+  <form class="modal-content" action="#">
+
+    <div class="container">
+      <h1>Riddle of the day</h1>
+      <p>
+        Who makes it, has no need of it.
+        Who buys it, has no use for it.
+        Who uses it can neither see nor feel it.
+        What is it?
+      </p>
+
+
+      <div class="clearfix">
+<!--        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
+<!--        <button id="showAnswer" type="button" onclick="document.getElementById('id01').style.display='none'" class="deletebtn">Show Answer</button>-->
+            <button id="showAnswer" type="button" class="deletebtn">Show Answer</button>
+
+      </div>
+
+      <p id="riddleAnswers">
+          A coffin.
+      </p>
+
+    </div>
+
+  </form>
+
+</div>
+
+<script src="final.js"></script>
+</body>
+</html>

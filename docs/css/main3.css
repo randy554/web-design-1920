@@ -1,0 +1,45 @@
+body {
+    background-color: #E6E6E9;
+}
+
+button {
+    padding: 1em 2em;
+    border-radius: 5px;
+    /*background-color: white;*/
+    /*border: 1px rgb(166, 166, 166) solid;*/
+}
+
+#opslaan {
+    background-color: blue;
+    color: white;
+}
+
+#datumVandaag {
+    color: blue;
+}
+
+select {
+    width: 10em;
+    height: 3.5em;
+}
+
+aside > p {
+    color: red;
+}
+
+label > span {
+    position: relative;
+    top: -2em;
+    left: 4em;
+}
+
+form {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+#bericht {
+    color: darkgreen;
+    font-size: 7em;
+    font-weight: bold;
+}
