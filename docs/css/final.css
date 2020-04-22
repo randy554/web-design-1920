@@ -3,6 +3,9 @@
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
 }
 
 /* Style the buttons inside the tab */
@@ -35,11 +38,19 @@
 /*  border-top: none;*/
 /*}*/
 
+.tabcontent > form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
 .inputStation {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
-  background: #fbfbfb;
+  /*background: #fbfbfb;*/
+  background: #614747;
+  height: 2em;
 }
 
 .treinenBox {
@@ -83,6 +94,7 @@ pre {
 .formStyle {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 2em;
 }
 
@@ -135,6 +147,7 @@ button:hover {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: #474e5d;
+  /*background-color: rgba(0,0,0,0.7); !* Black w/ opacity *!*/
   padding-top: 50px;
 }
 
@@ -191,6 +204,28 @@ hr {
   color: yellow;
 }
 
+.treinRitInfoOpposite {
+  margin-bottom: 2em;
+  font-family: 'Press Start 2P', cursive;
+  /*background-color: #002A36;*/
+  background-color: #232728;
+  color: white;
+  padding: 1em;
+  margin-top: 2em;
+  display: none;
+}
+
+.treinRitInfoOpposite:hover {
+  /*background-color: #084356;*/
+  /*background-color: #002A36;*/
+  padding: 1em;
+}
+
+.treinRitInfoOpposite > p {
+  font-size: 0.8em;
+  color: yellow;
+}
+
 /* Clear floats */
 .clearfix::after {
   content: "";
@@ -198,6 +233,40 @@ hr {
   display: table;
 }
 
+[for=andersDatum], [for=andersTijd], [for=tijd], [for=overTijd] {
+  color: white;
+  margin-right: 1em;
+}
+
+.level {
+  display: flex;
+  align-items: center;
+}
+
+.kopjes {
+  display: flex;
+  justify-content: left;
+}
+
+#recentBlock {
+  /*background-color: #002A36;*/
+  background-color: #607D8B;
+  padding: 2em;
+  margin-bottom: 5em;
+}
+
+.tijdStipModus {
+  background-color: #4A154B;
+    color: white;
+    padding: 0.3em;
+    margin: 0 0.5em;
+}
+.dagModus {
+    background-color: #228B22;
+    color: white;
+    padding: 0.3em;
+    margin: 0 0.5em;
+}
 /* Change styles for cancel button and delete button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .deletebtn {

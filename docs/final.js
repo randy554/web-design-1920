@@ -6,7 +6,14 @@ let vandaagMenuItem = document.querySelector("#vandaagMenuItem");
 let morgenMenuItem  = document.querySelector("#morgenMenuItem");
 let andersMenuItem  = document.querySelector("#andersMenuItem");
 
+let planner1  = document.querySelector("#planner1");
+let planner2  = document.querySelector("#planner2");
+
 let treinRitten     = document.querySelector(".treinenBox");
+
+let show1     = document.querySelector(".show1");
+let show2     = document.querySelector(".show2");
+
 
 window.onload = function (e) {
 
@@ -33,6 +40,31 @@ buttonOpslaan3.addEventListener("click", function (event) {
     event.preventDefault();
 
     showTreinRitten();
+});
+
+
+planner1.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    showTreinRittenVaak1();
+});
+
+planner2.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    showTreinRittenVaak2()
+});
+
+planner1.addEventListener("blur", function (event) {
+    event.preventDefault();
+
+    hideTreinRittenVaak1();
+});
+
+planner2.addEventListener("blur", function (event) {
+    event.preventDefault();
+
+    hideTreinRittenVaak2();
 });
 
 function openMenu(evt, cityName) {
@@ -62,6 +94,22 @@ function showTreinRitten() {
 
 function hideTreinRitten() {
     treinRitten.style.display = "none";
+}
+
+function showTreinRittenVaak1() {
+    show1.style.display = "block";
+}
+
+function hideTreinRittenVaak1() {
+    show1.style.display = "none";
+}
+
+function showTreinRittenVaak2() {
+    show2.style.display = "block";
+}
+
+function hideTreinRittenVaak2() {
+    show2.style.display = "none";
 }
 
 function showRiddleAnswer() {

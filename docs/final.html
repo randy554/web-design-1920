@@ -22,24 +22,86 @@
  |_|  |_|  \__,_| |_|    |_|   | | |_| |_|     |___/   |_|     \___| |_| |___/ | .__/  |_|  \__,_| |_| |_| |_| |_|  \___| |_|
                               _/ |                                             | |
                              |__/                                              |_|
+
+
 </pre>
 </header>
 
-<!--<form action="">-->
 
-<!--    <input class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">-->
+<pre class="kopjes">
+    Meest gebruikt
+    ==============
+</pre>
 
-<!--    spannaar-->
+<div id="recentBlock">
 
-<!--    <input class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">-->
+<form action="" class="formStyle">
 
-<!--    <label for="plan">-->
+    <input class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
 
-<!--            <button id="plan">Plannen</button>-->
+    <span class="treinStops">naar</span>
 
-<!--    </label>-->
+    <input class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
 
-<!--</form>-->
+    <span class="dagModus">vandaag</span> <span class="tijdStipModus">over +1 uur</span>
+
+    <label for="plan">
+
+            <button id="planner1">Plannen</button>
+
+    </label>
+
+</form>
+
+    <div class="treinRitInfoOpposite show1">
+
+        <header>
+            <h2>17:58 -> 18:46</h2>
+            <p>1:18</p>
+        </header>
+        <p>
+            <span class="vet">IC</span> Intercity + <span class="vet">IC</span>  Intercity
+        </p>
+
+    </div>
+
+<form action="" class="formStyle">
+
+
+    <input class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
+
+    <span class="treinStops">naar</span>
+
+    <input class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
+
+    <span class="dagModus">vandaag</span> <span class="tijdStipModus">over +1 uur</span>
+
+    <label for="plan">
+
+            <button id="planner2">Plannen</button>
+
+    </label>
+
+</form>
+
+    <div class="treinRitInfoOpposite show2">
+
+        <header>
+            <h2>17:58 -> 18:46</h2>
+            <p>1:18</p>
+        </header>
+        <p>
+            <span class="vet">IC</span> Intercity + <span class="vet">IC</span>  Intercity
+        </p>
+
+    </div>
+
+</div>
+
+<pre class="kopjes">
+    Nieuwe planning
+    ===============
+</pre>
 
 <form action="" class="formStyle">
 
@@ -63,12 +125,12 @@
 
 <div id="Vandaag" class="tabcontent">
 
-    <form action="">
+    <form class="level" action="">
 
-        <label for="overTijd">
+        <label for="overTijd">Tijd:
 
             <!-- Van hoe laat tot hoe laat reist hij?    -->
-            <select name="overTijd" id="overTijd">
+            <select class="inputStation" name="overTijd" id="overTijd">
                 <option id="1uur" value="1">over: +1 uur</option>
                 <option id="2uur" value="2">over: +2 uur</option>
 <!--                <option value="3">over: +3 uur</option>-->
@@ -96,15 +158,15 @@
 
 <div id="Morgen" class="tabcontent">
 
-    <form action="">
+    <form class="level" action="">
 
 
-        <label for="tijd">
+        <label for="tijd">Tijd:
 
 <!--            <span>;</span>-->
 
             <!-- Van hoe laat tot hoe laat reist hij?    -->
-            <select name="tijd" id="tijd">
+            <select class="inputStation" name="tijd" id="tijd">
                 <option value="07:00" disabled>07:00</option>
                 <option value="08:00" disabled>08:00</option>
                 <option value="09:00" disabled>09:00</option>
@@ -137,16 +199,16 @@
 
 <div id="Anders" class="tabcontent">
 
-    <form action="">
+    <form class="level" action="">
 
         <label for="anders">
 
             <label for="andersDatum">Datum:
-                <input type="date" id="andersDatum" name="andersDatum">
+                <input class="inputStation" type="date" id="andersDatum" name="andersDatum">
             </label>
 
             <label for="andersTijd">Tijd:
-                <input type="time" id="andersTijd" name="andersTijd">
+                <input class="inputStation" type="time" id="andersTijd" name="andersTijd">
             </label>
 
         </label>
@@ -168,7 +230,7 @@
     <div class="treinRitInfo">
 
         <header>
-            <h2>06:47 -> 07:35</h2>
+            <h2>17:47 -> 18:35</h2>
             <p>1:18</p>
         </header>
         <p>
@@ -180,7 +242,7 @@
     <div class="treinRitInfo">
 
         <header>
-            <h2>06:58 -> 07:46</h2>
+            <h2>17:58 -> 18:46</h2>
             <p>1:18</p>
         </header>
         <p>
