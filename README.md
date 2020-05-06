@@ -25,8 +25,8 @@ Live demo: https://randy554.github.io/web-design-1920/final2.html
 * [Live demo](#Introductie)
 * [Installatie](#Installatie)
 * [User Scenario](#user-scenario)
-* [Exclusive Design Principles](#Exclusive Design Principles)
-* [User Tests](#User Tests)
+* [Exclusive Design Principles](#exclusive-design-principles)
+* [User Tests](#user-tests)
 * [Bronnen](#bronnen)
 * [Licentie](#licentie)
 
@@ -101,7 +101,7 @@ Door velden waar er aanpassingen gemaakt kunnen worden bij hover de cursor te ve
 
 # User Tests
 
-### Test week 1 (kennismaking 8 April) 
+    Test week 1 (8 April) 
 
 #### Wie is Marijn Meijles)
 
@@ -150,7 +150,8 @@ zijn als:
 - tijdens de prototype test gebruik gemaakt kan worden van screenrecording
 - tijd voor handelingen in de gaten gehouden kan worden
 
-### Test week 2 (15 April) 
+
+    Test week 2 (15 April) 
 
 Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
@@ -193,7 +194,7 @@ To Do prototype:
 
 -	Vandaag/Morgen knoppen moet achtergrondkleur krijgen bij onfocus/onclick
 
--	  Sneltoets labels moeten boven invoervelden/knoppen getoond worden(V2)
+-	Sneltoets labels moeten boven invoervelden/knoppen getoond worden(V2)
 
 -	De tijd en datum moeten adhv user input aangepast worden.
 
@@ -261,7 +262,7 @@ Voor de volgende keer zou het handig zijn als:
 * Presenteer een overzicht met alle deelnemers aan de test in volgorde en hoeveel tijd iedere test ongeveer gaat/mag duren.
 
 
-### Test week 3 (22 April)
+    Test week 3 (22 April)
 
 De test
 
@@ -271,6 +272,7 @@ Testplan
 
 Uit de voorgaande test kwam vooral naar voren dat de context waarin bepaalde elementen zich bevonden niet altijd helemaal duidelijk waren. Hierdoor heb ik het concept omgegooid en een ander benaderingen genomen om opties te kunnen presenteren aan Marijn. Uit de test wil ik graag zien of Marijn de context snapt van de opties die worden gepresenteerd. Ik wil kijken of Marijn zijn weg kan vinden bij het plannen van een reis. Ik wil kijken of Marijn redelijk snel kan navigeren. Verder wil ik wat Marijn van het concept ‘riddle of the day’ vindt. Ook wil ik weten wat Marijn van de code editor layout vindt. 
 
+````text
 Introductie
 
 *    Hoe gaat het? 
@@ -301,6 +303,8 @@ Vragen
 *	Zou je behoefte hebben aan de optie om uit verschillende thema kleuren voor de layout te kunnen selecteren?
 
 *	Zijn er nog andere verbeteringen of ideeën die je mist en toegevoegd zou willen zien?
+
+````
 
 Bevindingen
 
