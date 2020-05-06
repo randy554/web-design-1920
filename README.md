@@ -152,7 +152,7 @@ zijn als:
 - tijd voor handelingen in de gaten gehouden kan worden
 
 
-Test week 2 (15 April) 
+    Test week 2 (15 April) 
 
 Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
@@ -162,6 +162,7 @@ Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 -	Gebruikt Google Chrome/Safari op Apple devices (MacBook/IPhone).
 -	Marijn gebruikt voornamelijk zijn linkerhand aan de rechterkant van het toetsenbord
 -	Maakt het meest gebruik van HJKL -en pijltoetsen, zijn trackpad en sticky keys.
+
 
 Met deze bevindingen stelde ik mijzelf deze vraag: 
 
@@ -187,7 +188,7 @@ Ook werd de tijden veld vervangen met over +1,2,3 uur etc. selectieveld. Het ide
 Dus over 1,2 uur boven op de huidige tijd in plaats van dit per uur en minuut aan te geven. 
 Marijn kon trouwens ook alleen een uur van tevoren aangeven aan de NS in welke trein hij zat om zo opgehaald te kunnen worden.
 
-Testplan
+**Testplan**
 
 Ik wil Marijn in het begin uitleggen wat het concept is. Daarna wil ik Marijn door een soort A/B test laten lopen. 
 Deze bestaat uit 2 soortgelijke sites. De één is meer gericht op het navigeren met de trackpad en de ander meer gericht op het gebruik van bepaalde keys.
@@ -207,7 +208,7 @@ Eventuele vragen
 * Heeft u nog tips, opmerkingen of toevoegingen voor deze app?  
 ````
 
-Bevindingen
+**Bevindingen**
 
 De werking van de app was niet helemaal te volgen. Dit kwam onder andere doordat alle opties in een keer getoond werden. 
 De “over 1 uur” knop was verwarrend. De knop was in de context van vandaag een goede toevoeging maar niet voor de planning van morgen. 
@@ -224,7 +225,7 @@ Dus alleen een default is niet voldoende.
 
 * Sommige van de velden waren foutgevoelig zoals text input velden
 
-Hoe ging de test:
+**Hoe ging de test:**
 
 Tijdens de test had ik last van internetproblemen. 
 De test verliep hierdoor allesbehalve naar behoren. Ik kon hierdoor Martijn niet verstaan en hij mij ook niet. 
