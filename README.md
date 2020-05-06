@@ -27,6 +27,7 @@ Live demo: https://randy554.github.io/web-design-1920/final2.html
 * [User Scenario](#user-scenario)
 * [Exclusive Design Principles](#exclusive-design-principles)
 * [User Tests](#user-tests)
+* [Overig Onderzoek](#overig-onderzoek)
 * [Bronnen](#bronnen)
 * [Licentie](#licentie)
 
@@ -151,7 +152,7 @@ zijn als:
 - tijd voor handelingen in de gaten gehouden kan worden
 
 
-    Test week 2 (15 April) 
+Test week 2 (15 April) 
 
 Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
@@ -164,11 +165,9 @@ Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
 Met deze bevindingen stelde ik mijzelf deze vraag: 
 
-```
-Hoe kan Marijn a.d.h.v. zijn voorkeur voor navigeren een datepicker op een efficiënte en prettige manier invullen?
-```
+*Hoe kan Marijn a.d.h.v. zijn voorkeur voor navigeren een datepicker op een efficiënte en prettige manier invullen?*
 
-Na wat deskresearch & brainstormen eindigde ik met deze schets voor het prototype.
+Na wat deskresearch & brainstormen eindigde ik met deze schets voor het prototype:
 
 ![bevindingen](docs/img/schets%20protype%202.jpg)
 
@@ -182,39 +181,18 @@ Datepicker V1
 Datepicker V2 
 ![prototype v2](docs/img/MarijndatepickerV2.png)
 
-To Do prototype:
-
--	Vandaag over een uur moet de default waarde zijn
-
--	De dag invoerveld moet bij de vandaag knop op de huidige dagwaarde staan en bij de morgenknop op de morgenwaarde.
-
--	De maand invoerveld moet standaard op de huidige maandwaarde staan.
-
--	Waardes in verleden tijd moeten onbeschikbaar zijn
-
--	Vandaag/Morgen knoppen moet achtergrondkleur krijgen bij onfocus/onclick
-
--	Sneltoets labels moeten boven invoervelden/knoppen getoond worden(V2)
-
--	De tijd en datum moeten adhv user input aangepast worden.
-
--	Onderscheid verstuur knop van andere knoppen en invoervelden op pagina
-
--	Verstuurknop moet feedback geven aan gebruiker.
-
-
 
 Hierbij was de dagen invoerveld vervangen met daadwerkelijke dagen van de week zodat Marijn hiervoor niet zelf dag associaties hoefde te maken.  
 Ook werd de tijden veld vervangen met over +1,2,3 uur etc. selectieveld. Het idee hierachter was om hem zo snel mogelijk tijd te kunnen laten aangeven. 
 Dus over 1,2 uur boven op de huidige tijd in plaats van dit per uur en minuut aan te geven. 
 Marijn kon trouwens ook alleen een uur van tevoren aangeven aan de NS in welke trein hij zat om zo opgehaald te kunnen worden.
 
-
-Test
+Testplan
 
 Ik wil Marijn in het begin uitleggen wat het concept is. Daarna wil ik Marijn door een soort A/B test laten lopen. 
 Deze bestaat uit 2 soortgelijke sites. De één is meer gericht op het navigeren met de trackpad en de ander meer gericht op het gebruik van bepaalde keys.
 
+````text
 Ik wil bij beide Marijn een opdracht geven en observeren hoe dit verloopt.
 
 Voor observatie
@@ -227,6 +205,7 @@ Eventuele vragen
 * Wat vindt u van de navigatie via de speciale keys?
 * Wat vindt u van de layout van de app? 
 * Heeft u nog tips, opmerkingen of toevoegingen voor deze app?  
+````
 
 Bevindingen
 
@@ -264,11 +243,11 @@ Voor de volgende keer zou het handig zijn als:
 
     Test week 3 (22 April)
 
-De test
+**De test**
 
 De test met Marijn begon weer stip om 16:00 uur. Vasilis had na feedback van vorige week weer de moeite gedaan om bij Marijn op locatie te gaan en de test op te zetten. De test ging naar mij gevoel beter dan vorige week (test 2). Vooral vlotter naar mijn gevoel. Mensen waren tijdig aanwezig, het opzetten van de test verliep sneller en ook verliepen de gesprekken sneller naar mij gevoel. Ik kreeg het idee dat mensen beter wisten wat ze wilde weten. 
 
-Testplan
+**Testplan**
 
 Uit de voorgaande test kwam vooral naar voren dat de context waarin bepaalde elementen zich bevonden niet altijd helemaal duidelijk waren. Hierdoor heb ik het concept omgegooid en een ander benaderingen genomen om opties te kunnen presenteren aan Marijn. Uit de test wil ik graag zien of Marijn de context snapt van de opties die worden gepresenteerd. Ik wil kijken of Marijn zijn weg kan vinden bij het plannen van een reis. Ik wil kijken of Marijn redelijk snel kan navigeren. Verder wil ik wat Marijn van het concept ‘riddle of the day’ vindt. Ook wil ik weten wat Marijn van de code editor layout vindt. 
 
@@ -306,7 +285,7 @@ Vragen
 
 ````
 
-Bevindingen
+**Bevindingen**
 
 Marijn gaf aan dat hij de context van de inputvelden nu wel duidelijk vond. Dit viel mij zelf ook eerder op toen ik hem de opdrachten gaf om uit te voeren.  
 Zo wist hij bij opdracht 1 meteen dat het handiger was om het formulier onder ‘Meest gebruikt’ te gebruiken. Ook onder het formulier van ‘Nieuwe planning’ wist hij zich goed te navigeren. 
@@ -317,11 +296,13 @@ Dit klopt dit was een fout van mij. Dat bepaalde tijden expliciet disabled waren
 Marijn gaf verder aan dat de ‘Morgen‘ optie met de aanwezigheid van de ‘Anders’ optie nog steeds relevant was om te behouden in het ontwerp. 
 Dit bevestigt het nut voor Marijn om opties te bieden onder verschillende context. 
 
-Marijn was erg enthousiast over de code editor layout met name de titel van de reisplanner. Wel gaf hij aan dat het kleurcontrast van de input tekstvelden wellicht beter konden. Ook gaf Marijn aan dat het niet nodig was om één van de formulieren standaard te verbergen om mogelijk meer overzicht te realiseren op de pagina. Ik had zelf ook geobserveerd dat hij redelijk snel van de ‘Meest gebruikt’ naar de ‘Niewe planner’ formulier navigeerde. Verder heeft Marijn niets aangegeven over de eventuele toevoeging van toetsen als aanvulling op de huidige navigatie. 
-
+Marijn was erg enthousiast over de code editor layout met name de titel van de reisplanner. 
+Wel gaf hij aan dat het kleurcontrast van de input tekstvelden wellicht beter konden. Ook gaf Marijn aan dat het niet nodig was om één van de formulieren standaard te verbergen om mogelijk meer overzicht te realiseren op de pagina. 
+Ik had zelf ook geobserveerd dat hij redelijk snel van de ‘Meest gebruikt’ naar de ‘Niewe planner’ formulier navigeerde. Verder heeft Marijn niets aangegeven over de eventuele toevoeging van toetsen als aanvulling op de huidige navigatie. 
 Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan dat hij dit liever op een andere plek zou willen terugzien. Als hij snel een treinrit wil zoeken wil hij niet dat dit in de weg zit. 
 
-Relevante observaties en feedback bij test van collega’s
+
+**Relevante observaties en feedback bij test van collega’s**
 
 *	HJKL toetsen niet goed geïmplementeerd waardoor er irritatie en verwarring ontstond bij Marijn.
 
@@ -331,17 +312,19 @@ Relevante observaties en feedback bij test van collega’s
 
 *	Marijn gaf aan dat elke actie minder is beter is. Onnodige wizard bij prototype van tester.
 
-Verbeteringen na Test 3
+**Verbeteringen na Test 3**
 
 *	Kleurencontrast inputvelden aanpassen
 *	Popup verplaatsen 
 
 
-Wishlist
+**Wishlist**
 
 *	Realtime NS api
 *	Responsive layout
 *	Riddle of the day social media share
+
+# Overig onderzoek
 
 <details>
 
