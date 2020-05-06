@@ -176,15 +176,15 @@ Het prototype was zo ontworpen om efficiënt te zijn. Dit vertaalde zich in het 
 Een voorbeeld hiervan is dat er geen jaartal ingevoerd hoefde te worden. Ook zijn er weer knoppen toegevoegd om ditzelfde doel te bereiken zoals het toevoegen van de ‘Morgen knop. 
 Met deze knop is het mogelijk om met een handeling de volgende dag te selecteren.
 
-Datepicker V1
+##### Datepicker V1
 ![prototype v1](docs/img/MarijndatepickerV1.png) 
 
-Datepicker V2 
+##### Datepicker V2 
 ![prototype v2](docs/img/MarijndatepickerV2.png)
 
 
-Hierbij was de dagen invoerveld vervangen met daadwerkelijke dagen van de week zodat Marijn hiervoor niet zelf dag associaties hoefde te maken.  
-Ook werd de tijden veld vervangen met over +1,2,3 uur etc. selectieveld. Het idee hierachter was om hem zo snel mogelijk tijd te kunnen laten aangeven. 
+Hierbij was de dagen invoerveld vervangen met daadwerkelijke dagen van de week, zodat Marijn hiervoor niet zelf dag associaties hoefde te maken.  
+Ook werd de tijden veld vervangen met over +1,2,3 uur selectieveld. Het idee hierachter was om hem zo snel mogelijk tijd te kunnen laten aangeven. 
 Dus over 1,2 uur boven op de huidige tijd in plaats van dit per uur en minuut aan te geven. 
 Marijn kon trouwens ook alleen een uur van tevoren aangeven aan de NS in welke trein hij zat om zo opgehaald te kunnen worden.
 
