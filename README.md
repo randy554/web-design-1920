@@ -102,8 +102,8 @@ Door velden waar er aanpassingen gemaakt kunnen worden bij hover de cursor te ve
 
 # User Tests
 
-### Test week 1 (8 April) 
-
+Test week 1 (8 April) 
+------
 #### Wie is Marijn Meijles)
 
 Marijn is een programmeur, vader van twee kinderen en heeft een motorische stoornis. Marijn omschrijft zichzelf als een bedreven persoon. Een analytisch persoon die een hekel heeft aan mensen die niet de tijd nemen om na te 
@@ -152,8 +152,8 @@ zijn als:
 - tijd voor handelingen in de gaten gehouden kan worden
 
 
-### Test week 2 (15 April) 
-
+Test week 2 (15 April) 
+------
 Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
 -	Marijn is papa van 2 en een drukke CTO
@@ -242,7 +242,8 @@ Voor de volgende keer zou het handig zijn als:
 * Presenteer een overzicht met alle deelnemers aan de test in volgorde en hoeveel tijd iedere test ongeveer gaat/mag duren.
 
 
-### Test week 3 (22 April)
+Test week 3 (22 April)
+------
 
 **De test**
 
