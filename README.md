@@ -1,207 +1,147 @@
 # Web Design @cmda-minor-web 1920
-//Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 
-Web Design gaat over het ontwerpen en testen van Interactie. Het voordeel van een Frontend Developer (en Web Designer) is dat die techniek begrijpt, kan toepassen én verstand heeft van UX en design. Als je Web technieken begrijpt kun je je ideeën snel prototypen en testen met echte gebruikers, in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
+Live demo: https://randy554.github.io/web-design-1920/final2.html
 
-In het vak Web design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En zit er wel _nonsense_ in?
+## Introductie
 
+![marijn reisplanner](docs/img/Marijnreisplanner.png)
 
-## Opdracht 1 - Ontwerpen met en voor echte mensen
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. Een echt mens. Je moet je ontwerp 3 keer testen. Door te testen en te itereren ga je je ontwerp verbeteren. Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. Een _exclusive design_ ... Wie is deze persoon dan voor wie je dit gaat maken? Wat vindt deze persoon leuk of juist niet? En hoe bedient deze persoon een computer?
+## Installatie
 
-- [Opdracht 1 - Ontwerpen met en voor echte mensen](Opdracht1.md)
+```javascript
+ 
+  #1. clone de repo
+  https://github.com/randy554/real-time-web-1920.git
 
+  #2. Navigeer naar de root van de app
+  open web-design-1920
 
-## Leerdoelen
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+  #3. Bekijk site
+  Open docs -> final2.html bekijk site: http://localhost:3006/
 
-[Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
+```
+## Inhoud
 
+* [Live demo](#Introductie)
+* [Installatie](#Installatie)
+* [User Scenario](#user-scenario)
+* [Exclusive Design Principles](#Exclusive Design Principles)
+* [User Tests](#User Tests)
+* [Bronnen](#bronnen)
+* [Licentie](#licentie)
 
 
-## Planning
+## User Scenario
 
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| <a href=#web-design---week-1>Week 1</a>  | Introductie, College Exclusive design + Briefing opdracht 1 <p>Aannames testen met echte mensen| Gastcollege _Usability and Accessibility_ van Marie van Driessche - VPRO <p>Coachingsgesprekken | Goede vrijdag  |
-| <a href=#web-design---week-2>Week 2</a>  | College Principles, User Needs & Testen <p>Prototype Testen met echte mensen |  Gastcollege Toegankelijkheid Johan Huijkman - Q42 en Roger Ravelli <p>Coachingsgesprekken | Feedbackgesprekken  |
-| <a href=#web-design---week-3>Week 3</a>  | College Web Design <p>Prototype testen met echte mensen | Gastcollege Experimental features van Léonie Watson - W3C <p>Coachingsgesprekken  | Feedbackgesprekken  |
-| Meivakantie |  |  |   |
-| <a href=#web-design---week-4>Week 4</a>  | Beoordelingsgesprekken | Beoordelingsgesprekken  | Beoordelingsgesprekken  |
+Marijn is een programmeur, vader van twee kinderen en heeft een motorische stoornis. Marijn omschrijft zichzelf als een bedreven persoon.
+Een analytisch persoon die een hekel heeft aan mensen die niet de tijd nemen om na te denken. Kwa humeur is hij meestal in een opgewekte stemming. 
+Zijn voorkeur in muziek gaat uit naar metal. Dit is ook de reden waarom je hem tegen het lijf zou kunnen lopen bij Rockcity Eindhoven. 
+Wat mij zelf opviel tijdens de eerste kennismaking is dat hij een goed gevoel voor humor heeft.
 
+Door Marijn’s motorische stoornis gebruikt hij apparatuur zoals de pc en smartphone wat anders dan mensen die deze stoornis niet bezitten. 
+Zo bedient hij zijn Macbook voornamelijk met zijn linkerhand aan de rechterkant van het toetsenboard. Hierbij maakt hij zowel gebruik van toetsen als zijn trackpad. 
+De Tab toest gebruikt hij liever niet om te navigeren. Hiervoor maakt hij eerdrer gerbuik van pijltoetsen om te navigeren. 
+Verder is Marijn n het bezit van een iPhone en een MacBook Pro.  Op deze apraraten maakt hij voornamelijk gebruik van Google Chrome en Safari om te browsen.  
 
+Marijn is naast vader van twee, CTO bij zijn bedrijf. Hij leidt een redelijk druk bestaan. Voor werk reist hij vaak met de trein. 
+Bij het inplannen van deze reizen kan hij daardoor wel wat hulp gebruiken.  
+Het idee is om een persoonlijke reisplanner voor Marijn te ontwerpen, waarbij de nadruk wordt gelegd op de date picker waarmee de een reis gevonden kan worden. 
 
 
-## Programma
+# Exclusive Design Principles
 
-### Web Design - Week 1
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Je kan dan al een kleine interactieve demo maken om te testen.
+Geen goed product wordt ontworpen zonder de eindgebruiker in gedachten te houden en deze te proberen te begrijpen. 
+Ditzelfde geldt ook voor het maken van websites/apps. Het probleem is dat designers vaak voor gebruikers als hunzelf ontwerpen maar niet voor mensen die heel anders omgaan met dezelfde producten. 
+Om designers handvaten te bieden bij Exclusive Design heeft Vasilis van Germert vier principes ontworpen: Study situation, Ignore conventions, Prioritise identity en Add nonsense. 
+Hieronder leg ik uit hoe ik deze principes heb toegepast binnen dit project.
 
 
-#### Woensdag 8 april
-Woensdag is de eerste les van het vak Web Design. Je krijgt een intro college over het vak en Vasilis gaat vertellen over _Exclusive Design_. [Planning week 1](./slides/Week1.png)
+### Study situation
 
-- [Les 1 Introduktie en briefing opdracht 1](./slides/WD1920%20Les1%20-%20kickoff.pdf)
-- [College over Exclusive Design](./slides/exclusive-design.pdf)
+Zoals eerder omschreven in [User scenario] is Marijn naast vader van twee ook CTO bij zijn bedrijf. Hij heeft een druk bestaan. 
+Daarom zie ik het als passend om bij het ontwerpen van een oplossing uit te kijken naar mogelijkheden om de app efficiënt in gebruik te maken. 
+Dit zie je bijvoorbeeld in de app terug bij ‘Meest gebruikte’ reizen, waarbij Martijn zijn meest recente reizen te zien krijgt en deze met klik kan plannen. 
+Ook is dit doorgevoerd door middel van smart default, de reislocaties zijn van en naar zijn al ingevuld.
 
-'s Middags gaan we kennismaken met mensen met wie jullie gaan samenwerken. Wie zijn deze mensen? Wat vinden ze leuk of juist niet? En hoe bedienen ze een computer?
+Zoals eerder aangegeven navigeert Marijn achter de pc ook anders dan de gemiddelde. Zo gebruikt hij de linker kant van zijn toetsenbord op de Mac liever niet. 
+Hierdoor moet rekening gehouden worden dat een TAB-only navigatie via het keyboard niet handig is.
 
-1. Marie van Driessche om 14:00
-2. Larissa Klaassen om 14:00.
-3. Roger Ravelli om 14:00.
-4. Marijn Meijles om 16:00.
+Marijn moet naast zijn reguliere werkreizen ook de mogelijkheid hebben om andere dagen reizen te kunnen plannen. 
+Dit is mogelijk in de app via de ‘Anders’ menu-item.
 
+### Ignore conventions
 
+Reguliere date pickers geven gebruikers standaard de mogelijkheid om alle toekomstige tijden en datums in te stellen. 
+In Marijn’s geval is dit niet de ideale manier om hiermee om te gaan. Doordat Marijn hulp krijgt aan station, is hij gelimiteerd in wanneer hij moet aangeven dat hij in een bepaalde trein zit. 
+In zijn geval minimaal een uur van tevoren. Ik heb er daarom voor gekozen om alleen relevante inputwaardes te weergeven per scenario. 
+Zo kan hij bijvoorbeeld onder menu item ‘Vandaag’ alleen aangeven om over 1 of 2 uur te vertrekken.
 
-#### Donderdag 9 april
-Donderdag begint de les met een Q&A. Hoe gingen de gesprekken jullie mensen? Hoe kun je testen nu we remote werken? Bedenk alvast vragen en opmerkingen om te bespreken.
-Marie van Driessche van de VPRO geeft een gastcollege over Design.
+Zoals bij study situation is aangegeven gebruikt Marijn liever de Tab toets niet en kan hier niet alleen op de standaard tab navigatie gebouwd worden. 
+Daarom zijn de elementen ook zonder Tab te navigeren met de pijltoetsen.
 
-Deze les gaan we onderstaande artikelen bespreken:
-- [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/)
+### Prioritise identity
 
+Het eindproduct is voor Marijn specifiek bedoeld en niemand anders. Daarom is het belangrijk om zijn ideeën, mening/voorkeuren tijdens het ontwikkelen mee te nemen. 
+Het is dus van belang dat het einddoel samen met Marijn wordt behaald. Dit wordt binnen dit project uitgevoerd door wekelijks ideeën in de vorm van een prototype voor te stellen, te observeren en feedback hierop te vragen.
 
-In de middag zijn er coachingsgesprekken in groepjes.
+Voor dit onderdeel heb ik vooral gekeken naar Marijn als persoon. Met name zijn achtergrond in techniek en zijn goede gevoel voor humor. 
+Dit heeft geresulteerd in editor styling van de datepicker en de ‘riddle of the day’ content. Beide zijn door hem heel goed ontvangen. 
 
-#### Vrijdag 10 april
-Vrijdag is het Goede vrijdag. Geen les.
+### Add nonsense
 
+Websites/apps ontwerpen voor mensen met een beperking is voor veel designers vaak onbekend terrein. 
+Door hier en daar ‘onzinnige’ dingen toe te voegen aan een concept kun je tot interessante ideeën komen. 
+Vaak ook niet en dat is niet per se erg, het is ook gewoon leuk om af en toe iets anders te doen binnen een project. 
+Het eerdergenoemde ‘riddle of the day’ valt ook onder dit kopje. 
+Hoewel het in de laatste test heel goed werd ontvangen, gaf Marijn na het vragen van feedback hierover aan dat de positie misschien verplaatst kan worden omdat het misschien in de weg kan zitten als hij echt haast heeft. 
+Dat is zeer terecht met de content waarmee er getest werd. Maar hoe zit dit met content die als herinnering kan dienen? 
+Ik had dit met meer tijd willen testen. 
+Verder ben ik met de ‘nonsense’ verder gegaan binnen de context van de editor styling. 
+Door velden waar er aanpassingen gemaakt kunnen worden bij hover de cursor te veranderen in een editor cursor. 
 
+# User Tests
 
+### Test week 1 (kennismaking 8 April) 
 
-### Web Design - Week 2
-Deze week heb je het tweede gesprek met je mens. Wat ga je testen? Wat wil je weten? [Planning week 2](./slides/Week2.png)
+#### Wie is Marijn Meijles)
 
-- [College over Principles, User needs & Testen]()
-
-
-
-#### Woensdag 15 april
-Woensdag krijg je een college over principles, user needs & testen.
-
-- [Les 2 principles, user needs & testen]()
-
-Deze les gaan we dit artikel bespreken:
-- [Design for Both Needs and Wants: Applying Anderson’s User Experience Hierarchy of Needs](https://thevisualcommunicationguy.com/2018/11/08/design-for-both-needs-and-wants-applying-andersons-user-experience-hierarchy-of-needs/)
--  [10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/)
-
-'s Middags gaan we testen.
-
-1. Marie van Driessche om 14:00
-2. Larissa Klaassen om 14:00.
-3. Roger Ravelli om 14:00.
-4. Marijn Meijles om 16:00.
-
-
-#### Donderdag 16 april
-Donderdag begint de les met een Q&A. Tips en triks voor remote testen?
-Johan Huijkman van Q42 geeft samen met Roger Ravelli een gastcollege over toegankelijkheid.
-
-In de middag zijn er coachingsgesprekken in groepjes.
-
-
-Deze les gaan we dit artikel bespreken:
-- [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/)
-
-
-#### Vrijdag 17 april
-Vrijdag zijn er feedbackgesprekken met Vasilis en Koop.
-
-
-
-
-
-
-### Web Design - Week 3
-In week 3 gaan we verder met testen, itereren en reflecteren. Woensdag is de laatste sessie met je mens. [Planning week 3](./slides/Week3.png)
-
-
-#### Woensdag 22 april
-Woensdag beginnen we met een college. Dan gaan we twee artikelen bespreken.
-
-- [Les 3 college Web Design]()
-
-
-Deze les gaan we dit artikel bespreken:
-- [Design for Fingers, Touch, and People van Steven Hoober](https://www.uxmatters.com/mt/archives/2017/03/design-for-fingers-touch-and-people-part-1.php)
-
-
-
-'s Middags gaan we voor de laatste keer testen.
-
-1. Marie van Driessche om 14:00
-2. Larissa Klaassen om 14:00.
-3. Roger Ravelli om 14:00.
-4. Marijn Meijles om 16:00.
-
-
-#### Donderdag 23 april
-Donderdag begint de les met een Q&A.
-Léonie Watson van W3C geeft een gastcollege over experimental features.
-
-In de middag zijn er weer coachingsgesprekken in groepjes.
-
-
-
-
-Deze les gaan we dit artikel bespreken:
-- [Designing for Interaction Modes van Andrew Grimes](https://alistapart.com/article/designing-for-interaction-modes/)
-
-
-#### Vrijdag 24 april
-Vrijdag zijn er feedbackgesprekken met Vasilis en Koop.
-
-
-
-
-### Web Design - Week 4
-
-Deze week hebben we een gesprek waarin we je vorderingen en bevindingen bespreken. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. [Planning week 4](./slides/Week4.png)
-
-Lees hier de [criteria van opdracht 1](Opdracht1.md)
-
-
-
-## Week 1 (kennismaking 8 April) 
-
-### Wie is Marijn Meijles)
-
-Marijn is een programmeur met een motorische stoornis. Marijn omschrijft zichzelf als een bedreven persoon. Een analytisch persoon die een hekel heeft aan mensen die niet de tijd nemen om na te 
-denken. Kwa humeur is hij meestal in een opgewekte stemming. Zijn voorkeur in muziek gaat uit naar metal. Dat is de reden
-waarom je hem tegen het lijf zou kunnen lopen bij Rockcity Eindhoven. Wat mij zelf opviel tijdens de interview is dat hij
+Marijn is een programmeur, vader van twee kinderen en heeft een motorische stoornis. Marijn omschrijft zichzelf als een bedreven persoon. Een analytisch persoon die een hekel heeft aan mensen die niet de tijd nemen om na te 
+denken. Kwa humeur is hij meestal in een opgewekte stemming. Zijn voorkeur in muziek gaat uit naar metal. Dit is ook de reden
+waarom je hem tegen het lijf zou kunnen lopen bij Rockcity Eindhoven. Wat mij zelf opviel tijdens de eerste kennismaking is dat hij
 een goed gevoel voor humor heeft.   
 
-### Testsessie
+#### Testsessie
 Op 8 April om 16:00 uur had mijn groep en ik een kennismakingsgesprek met Marijn Meijles. Voorafgaand hadden wij
-gezamenlijk een aantal vragen bedacht die wij relevant achtte. Om meer inzicht te krijgen hadden wij ook naar de 
-bevindingen gekeken van studenten van vorig jaar. Verder hadden wij als groep één prototype die door Marijn gestest moest 
+gezamenlijk een aantal vragen bedacht die wij relevant achtte. Om meer inzicht te krijgen hadden wij ook naar de gekeken van studenten van vorig jaar. 
+
+![bevindingen](docs/img/deskresearch_Marijn%20.png)
+
+Verder hadden wij als groep één prototype die door Marijn gestest moest 
 worden. Ook hadden wij één persoon aangewezen die al onze vragen via de webcam & mic ging stellen. In het begin van het 
 gesprek werden er vragen gesteld om Marijn als persoon beter te leren kennen. Dit waren vragen als hoe hij zichzelf zou 
 omschrijven, wat hij in zijn vrije tijd doet en wat zijn voorkeur in muziek is. Na dit werden er vragen gesteld over zijn
-gebruik van apparatuur en software. Zo gaf hij aan gebruik te maken van een Macbook en een iPhone XR die draaien op 
-OS X en iOS. Ook gaf hij aan voornamelijk gebruik te maken van Google Chrome en Safari. Hij gaf aan dat hij voor 
+gebruik van apparatuur en software. Zo gaf hij aan gebruik te maken van een MacBook en een iPhone XR die draaien op 
+OS X en iOS. Ook gaf hij aan voornamelijk gebruik te maken van Google Chrome en Safari, en dat hij voor 
 testdoeleinde bereid was om andere browsers te installeren. Hierna volgde er vragen die over hij op dit moment navigeert
-op websites. Hierbij vertelde hij dat hij veel gebruik maakt zijn linkderhand aan de rechterkant van het toetsenbord. En 
-dat hij voornamelijk toetsen gebruikt om te navigeren. Hij gaf aan weinig gebruik te maken van de TAB toets maar in plaats
-daarvan de Spacebar Toets. Ook gaf hij aan gebruik maakt van stickey keys (hierbij blijft een toets ingedrukt totdat er
+op websites. Hierbij vertelde Marijn dat hij veel gebruik maakte van zijn linkerhand aan de rechterkant van het toetsenbord. 
+Hij maakt hier voornamelijk gebruik van de HJKL en pijltoetsen om te navigeren. Ook gaf hij aan weinig gebruik te maken van de TAB toets maar in plaats
+daarvan de Spacebar Toets. Ook gaf hij aan gebruik maakt van sticky keys (hierbij blijft een toets ingedrukt totdat er
 een vervolg toets wordt ingedrukt).
 
-Na dat we door al onze vragen waren, ging we verder met het testen van de prototype. De prototype bestond uit zes verchillende
+Na dat we door al onze vragen heen waren, ging we verder met het testen van de prototype. De prototype bestond uit zes verschillende
 date & timepickers. Daarbij observeerde wij hoe Marijn met de verschillende input types omging, zowel op de site en webcam. Een
-opvallende bevinden was dat hij toch wel meer gebruik maakt van de trackpad dan dat hij eerder aangaf in de interview. Zolang
+opvallende bevinden was dat hij toch wel meer gebruik maakt van de trackpad dan dat hij eerder aangaf in het interview. Zolang
 de targets groot genoeg waren was dit minder een probleem om hier gebruik van te maken. Een ander bevinding was dat er niet
 altijd goede feedback was na het uitvoeren van een handeling of dat er geen toelichting stond bij die input waardoor de opdracht
 af en toe onduidelijk kon zijn.    
 
 
-### Hoe ging de test
+#### Hoe ging de test
 
-Begin van de test hadden we wat problemen om Marijn te verstaan. Dit werdt verbeterd veel beter toen hij van
+Begin van de test hadden we wat problemen om Marijn te verstaan. Dit werdt veel beter toen hij van
 plek veranderde. Het werken met Jitsi was niet echt een probleem voor Marijn, hij kon vrij makkelijk de mic gebruiken en zijn
-scherm delen. Het was jammer dat wij zijn handen niet konden zien bewegen op het toestsenbord en trackpad. Het prototype
-was op zich een goed idee. Marijn met verschillende datepickers laten werken en dit observeren. Helaas was onze prototype
+scherm delen. Het was jammer dat wij zijn handen niet konden zien bewegen op het toetsenbord en trackpad. Het prototype
+was op zich een goed idee. Het idee was om Marijn met verschillende datepickers te laten werken en dit te observeren. Helaas was onze prototype
 niet helemaal goed getest waardoor bepaalde onderdelen niet helemaal naar behoren werkte. Voor de volgende keer zou het handig 
 zijn als:
 
@@ -210,28 +150,233 @@ zijn als:
 - tijdens de prototype test gebruik gemaakt kan worden van screenrecording
 - tijd voor handelingen in de gaten gehouden kan worden
 
-# Exclusive design
+### Test week 2 (15 April) 
 
-### 1. Study situation
+Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
-Marijn heeft een motorisch stoornis, kan zich daardoor wat lastiger bewegen voor hem. Hij maakt het liefst gebruik van zijn
-een aantal toesten op zijn keyboard, ondersteund door zijn trackpad.
+-	Marijn is papa van 2 en een drukke CTO
+-	Favoriete muziekgenre is metal
+-	Schrikt niet snel van een technische uitdaging
+-	Gebruikt Google Chrome/Safari op Apple devices (MacBook/IPhone).
+-	Marijn gebruikt voornamelijk zijn linkerhand aan de rechterkant van het toetsenbord
+-	Maakt het meest gebruik van HJKL -en pijltoetsen, zijn trackpad en sticky keys.
 
-### 2. Ignore conventions
+Met deze bevindingen stelde ik mijzelf deze vraag: 
 
-Ik moet dit nog bevestigd hebben wat de gebruikelijke user scenario is. Gebruikt hij dit dagelijks of in 1x in de zoveel tijd?
+```
+Hoe kan Marijn a.d.h.v. zijn voorkeur voor navigeren een datepicker op een efficiënte en prettige manier invullen?
+```
 
-### 3. Prioritise identity
+Na wat deskresearch & brainstormen eindigde ik met deze schets voor het prototype.
 
-Ik wil hier iets met zijn voorkeur in muziek gaan doen.
+![bevindingen](docs/img/schets%20protype%202.jpg)
 
-### 4. Add nonsense
+Het prototype was zo ontworpen om efficiënt te zijn. Dit vertaalde zich in het ontwerp door het elimineren van elementen die niet relevant zijn in de context waarin Marijn deze zou gaan gebruiken. 
+Een voorbeeld hiervan is dat er geen jaartal ingevoerd hoefde te worden. Ook zijn er weer knoppen toegevoegd om ditzelfde doel te bereiken zoals het toevoegen van de ‘Morgen knop. 
+Met deze knop is het mogelijk om met een handeling de volgende dag te selecteren.
 
+Datepicker V1
+![prototype v1](docs/img/MarijndatepickerV1.png) 
+
+Datepicker V2 
+![prototype v2](docs/img/MarijndatepickerV2.png)
+
+To Do prototype:
+
+-	Vandaag over een uur moet de default waarde zijn
+
+-	De dag invoerveld moet bij de vandaag knop op de huidige dagwaarde staan en bij de morgenknop op de morgenwaarde.
+
+-	De maand invoerveld moet standaard op de huidige maandwaarde staan.
+
+-	Waardes in verleden tijd moeten onbeschikbaar zijn
+
+-	Vandaag/Morgen knoppen moet achtergrondkleur krijgen bij onfocus/onclick
+
+-	  Sneltoets labels moeten boven invoervelden/knoppen getoond worden(V2)
+
+-	De tijd en datum moeten adhv user input aangepast worden.
+
+-	Onderscheid verstuur knop van andere knoppen en invoervelden op pagina
+
+-	Verstuurknop moet feedback geven aan gebruiker.
+
+
+
+Hierbij was de dagen invoerveld vervangen met daadwerkelijke dagen van de week zodat Marijn hiervoor niet zelf dag associaties hoefde te maken.  
+Ook werd de tijden veld vervangen met over +1,2,3 uur etc. selectieveld. Het idee hierachter was om hem zo snel mogelijk tijd te kunnen laten aangeven. 
+Dus over 1,2 uur boven op de huidige tijd in plaats van dit per uur en minuut aan te geven. 
+Marijn kon trouwens ook alleen een uur van tevoren aangeven aan de NS in welke trein hij zat om zo opgehaald te kunnen worden.
+
+
+Test
+
+Ik wil Marijn in het begin uitleggen wat het concept is. Daarna wil ik Marijn door een soort A/B test laten lopen. 
+Deze bestaat uit 2 soortgelijke sites. De één is meer gericht op het navigeren met de trackpad en de ander meer gericht op het gebruik van bepaalde keys.
+
+Ik wil bij beide Marijn een opdracht geven en observeren hoe dit verloopt.
+
+Voor observatie
+* Hoe lang duurt dit ongeveer?
+* Gaat hij in een keer naar de juiste buttons/input?
+* Waar heeft hij moeite mee?
+
+Eventuele vragen
+* Is het gebruik van de app te volgen?
+* Wat vindt u van de navigatie via de speciale keys?
+* Wat vindt u van de layout van de app? 
+* Heeft u nog tips, opmerkingen of toevoegingen voor deze app?  
+
+Bevindingen
+
+De werking van de app was niet helemaal te volgen. Dit kwam onder andere doordat alle opties in een keer getoond werden. 
+De “over 1 uur” knop was verwarrend. De knop was in de context van vandaag een goede toevoeging maar niet voor de planning van morgen. 
+De speciale keys voor de velden was handig maar ook weer verwarrend. De HJKL toetsen die aan de input velden en buttons was meegegeven waren voor Marijn verwarrend omdat de HJKL toetsen vanuit de VI editor als pijltoetsen dienen en hier was dat niet het geval. 
+Ook was het concept waarvoor de datepicker gebruikt werd niet helemaal duidelijk. Dit moest ik expliciet uitleggen want er stond alleen ‘datepicker’ bovenaan de pagina. 
+En bij de input velden stond er alleen het bijschrift ‘vertrek’.
+Verder gaf Marijn ook aan dat hij standaard op maandag 09:30 van Eindhoven naar Amsterdam reist.
+Hij heeft af en toe ook aparte reizen die hij maakt zoals af en toe zit hij in een hotel. Dus hier moet ook rekening mee worden gehouden dat hij niet alleen op standaard dagen tijden reist. 
+Dus alleen een default is niet voldoende.
+
+#### Uit feedback op werk van andere:
+
+* Knoppen en andere elementen hoeven niet overdreven groot gemaakt te worden voor minder travel, hij irriteert zich hier eerder aan. 
+
+* Sommige van de velden waren foutgevoelig zoals text input velden
+
+Hoe ging de test:
+
+Tijdens de test had ik last van internetproblemen. 
+De test verliep hierdoor allesbehalve naar behoren. Ik kon hierdoor Martijn niet verstaan en hij mij ook niet. 
+Hierdoor kon ik niet meteen het regie nemen met de test zoals ik had gepland. 
+Het gevolg hierdoor was dat hij alvast van start ging en scenario’s ging uitproberen die ik niet per se had voorbereid. 
+Hierdoor werden er wel fouten ontdekt zoals invoerwaardes die niet helemaal logisch waren in een bepaalde context. 
+Gelukkig was er achteraf nog de ruimte om de test rustig doorlopen met Martijn en hem hierdoor te kunnen observeren en vragen op feedback.  
+De test deed naar mij gevoel over het algemeen best wel lang. Ik denk dat dit een combinatie was van dat we niet een goed overzicht hadden van wie er allemaal nog aan de beurt moest komen en hoelang de test zou gaan duren. 
+
+Voor de volgende keer zou het handig zijn als:
+
+* Na het live gaan test of je audio/spraak en overige dingen het goed doen.
+* Zorg dat de elementen die je in je prototype gebruikt goed werkend zijn of geeft dit bij voorbaat aan.
+* Presenteer een overzicht met alle deelnemers aan de test in volgorde en hoeveel tijd iedere test ongeveer gaat/mag duren.
+
+
+### Test week 3 (22 April)
+
+De test
+
+De test met Marijn begon weer stip om 16:00 uur. Vasilis had na feedback van vorige week weer de moeite gedaan om bij Marijn op locatie te gaan en de test op te zetten. De test ging naar mij gevoel beter dan vorige week (test 2). Vooral vlotter naar mijn gevoel. Mensen waren tijdig aanwezig, het opzetten van de test verliep sneller en ook verliepen de gesprekken sneller naar mij gevoel. Ik kreeg het idee dat mensen beter wisten wat ze wilde weten. 
+
+Testplan
+
+Uit de voorgaande test kwam vooral naar voren dat de context waarin bepaalde elementen zich bevonden niet altijd helemaal duidelijk waren. Hierdoor heb ik het concept omgegooid en een ander benaderingen genomen om opties te kunnen presenteren aan Marijn. Uit de test wil ik graag zien of Marijn de context snapt van de opties die worden gepresenteerd. Ik wil kijken of Marijn zijn weg kan vinden bij het plannen van een reis. Ik wil kijken of Marijn redelijk snel kan navigeren. Verder wil ik wat Marijn van het concept ‘riddle of the day’ vindt. Ook wil ik weten wat Marijn van de code editor layout vindt. 
+
+Introductie
+
+*    Hoe gaat het? 
+*    Klaar voor test? 
+*    Uitleg gang van zaken test.
+
+Disclaimer
+
+*    Aangeven data is niet realtime.
+
+Opdrachten
+
+
+*    Je zit in Amsterdam en je wilt over 1 uur een trein hebben naar Eindhoven.
+
+*    Je wilt morgen om 7 uur van Eindhoven naar Amsterdam een reis hebben.
+
+Vragen
+
+*	Je gaf de vorige keer aan dat input velden onder ‘Vandaag’, ‘Morgen’ en ‘Anders’ niet helemaal in context was en daarom onduidelijk of niet passend. Is dat nu wel beter?
+
+*	Is de ‘Morgen’ optie nog relevant aangezien de ‘Anders’ opties ook beschikbaar is? 
+
+*	Wat vindt je van de ‘Raadsel van de dag’? Staat hij als pop-up goed of zou je deze liever ergens anders willen zien?
+
+*	De formulieren onder de kopjes ‘Meest gebruikt’ en 'Nieuwe planning' staan nu standaard uitgeklapt, zou je dit zo willen houden of standaard één kopje willen dicht geklapt hebben?
+
+*	Zou je behoefte hebben aan de optie om uit verschillende thema kleuren voor de layout te kunnen selecteren?
+
+*	Zijn er nog andere verbeteringen of ideeën die je mist en toegevoegd zou willen zien?
+
+Bevindingen
+
+Marijn gaf aan dat hij de context van de inputvelden nu wel duidelijk vond. Dit viel mij zelf ook eerder op toen ik hem de opdrachten gaf om uit te voeren.  
+Zo wist hij bij opdracht 1 meteen dat het handiger was om het formulier onder ‘Meest gebruikt’ te gebruiken. Ook onder het formulier van ‘Nieuwe planning’ wist hij zich goed te navigeren. 
+Opvallend was wel is dat hij hier in tegenstelling tot het ‘Meest gebruikt’ formulier na het invullen van het tijdstip niet de planning knop in één keer aanklikte. 
+Ik vermoed dat dit mogelijk zou kunnen komen omdat het hier om een select input ging in plaatst van een tekst input. Een mogelijke iteratie hierop zou kunnen zijn dat na het selecteren van een waarde, er direct de resultaten worden getoond. 
+Dit zou uiteraard getest moeten worden. Verder gaf hij aan dat voor Morgen niet alle tijden beschikbaar waren. 
+Dit klopt dit was een fout van mij. Dat bepaalde tijden expliciet disabled waren had ik over het hoofd gezien. 
+Marijn gaf verder aan dat de ‘Morgen‘ optie met de aanwezigheid van de ‘Anders’ optie nog steeds relevant was om te behouden in het ontwerp. 
+Dit bevestigt het nut voor Marijn om opties te bieden onder verschillende context. 
+
+Marijn was erg enthousiast over de code editor layout met name de titel van de reisplanner. Wel gaf hij aan dat het kleurcontrast van de input tekstvelden wellicht beter konden. Ook gaf Marijn aan dat het niet nodig was om één van de formulieren standaard te verbergen om mogelijk meer overzicht te realiseren op de pagina. Ik had zelf ook geobserveerd dat hij redelijk snel van de ‘Meest gebruikt’ naar de ‘Niewe planner’ formulier navigeerde. Verder heeft Marijn niets aangegeven over de eventuele toevoeging van toetsen als aanvulling op de huidige navigatie. 
+
+Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan dat hij dit liever op een andere plek zou willen terugzien. Als hij snel een treinrit wil zoeken wil hij niet dat dit in de weg zit. 
+
+Relevante observaties en feedback bij test van collega’s
+
+*	HJKL toetsen niet goed geïmplementeerd waardoor er irritatie en verwarring ontstond bij Marijn.
+
+*	Tester had alleen toetsenbord als navigatie, Marijn gaf aan dat hij ook gebruik maakt van zijn trackpad.
+
+*	Marijn gaf aan dat gekozen toets voor een handeling lastig is omdat hij hier waarschijnlijk vaak per ongeluk naast zal slaan. 
+
+*	Marijn gaf aan dat elke actie minder is beter is. Onnodige wizard bij prototype van tester.
+
+Verbeteringen na Test 3
+
+*	Kleurencontrast inputvelden aanpassen
+*	Popup verplaatsen 
+
+
+Wishlist
+
+*	Realtime NS api
+*	Responsive layout
+*	Riddle of the day social media share
+
+<details>
+
+<summary>Color constrast checken & Color picker</summary>
+
+Contrast checker
+
+![Contrast checker](docs/img/contrast_check.png)
+
+Color picker
+
+![Color picker](docs/img/colorpalette2.png)
+
+</details>
+
+<details>
+
+<summary>VI Themes</summary>
+
+Theme 1
+
+![Theme 1](docs/img/themas/theme1.png)
+
+Theme 2
+
+![Theme 2](docs/img/themas/theme2.png)
+
+</details>
+ 
+# Bronnen
+
+ * [Modal](https://www.w3schools.com/howto/howto_css_delete_modal.asp)
+ * [Tabs](https://www.w3schools.com/howto/howto_js_tabs.asp)
+ * [Colour Contrast Check](https://snook.ca/technical/colour_contrast/colour.html#fg=FFFFFF,bg=01161E)
+ * [Coolors](https://coolors.co/084356-01161e-598392-aec3b0-eff6e0)
+ * [W3C Contrast](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)
+ * [Flaticon](https://www.flaticon.com/home)
 
  
-  
-
-   
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
@@ -250,5 +395,6 @@ Ik wil hier iets met zijn voorkeur in muziek gaan doen.
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+
 
 

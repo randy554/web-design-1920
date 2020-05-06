@@ -2,12 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/final.css">
+    <link rel="stylesheet" href="./css/final2.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#controlsTag").click(function(){
+            $("#controlsContent").toggle();
+          });
+        });
+    </script>
     <title>Marijn reisplanner</title>
 </head>
 <body>
 
+<div id="controls">
+    <p id="controlsTag">Controls</p>
+    <p id="controlsContent"> Shift + <img src="img/left-arrow.svg" alt="left arrow" id="leftArrow">  of  <img src="img/right-arrow.svg" alt="right arrow" id="rightArrow"> voor navigeren in formulier </p>
+</div>
 <!-- Header -->
 <header>
 <!--    <h1>Marijn's reisplanner</h1>-->
@@ -27,21 +39,39 @@
 </pre>
 </header>
 
+<div id="riddleBlock">
 
-<pre class="kopjes">
+    <pre>
     Meest gebruikt
     ==============
-</pre>
+    </pre>
+
+<!--    <pre class="kopjes">-->
+<!--    Nieuwe planning-->
+<!--    ===============-->
+<!--</pre>-->
+
+<!--    <span>-->
+<!--        Meest gebruikt-->
+<!--        ==============-->
+<!--    </span>-->
+
+    <span>
+        <a href="#id01">Riddle of today?</a>
+    </span>
+
+</div>
+
 
 <div id="recentBlock">
 
 <form action="" class="formStyle">
 
-    <input class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
+    <input id="vanMeest1" autocomplete="on" class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
 
     <span class="treinStops">naar</span>
 
-    <input class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
+    <input id="naarMeest1" autocomplete="on" class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
 
     <span class="dagModus">vandaag</span> <span class="tijdStipModus">over +1 uur</span>
 
@@ -68,11 +98,11 @@
 <form action="" class="formStyle">
 
 
-    <input class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
+    <input id="vanMeest2" autocomplete="on" class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
 
     <span class="treinStops">naar</span>
 
-    <input class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
+    <input id="naarMeest2" autocomplete="on" class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
 
     <span class="dagModus">vandaag</span> <span class="tijdStipModus">over +1 uur</span>
 
@@ -103,13 +133,14 @@
     ===============
 </pre>
 
+
 <form action="" class="formStyle">
 
-    <input class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
+    <input id="vanNieuwe" autocomplete="on" class="inputStation" type="text" placeholder="Eindhoven" value="Eindhoven">
 
     <span class="treinStops">naar</span>
 
-    <input class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
+    <input id="naarNieuwe" autocomplete="on" class="inputStation" type="text" placeholder="Amsterdam" value="Amsterdam">
 
 </form>
 
@@ -167,15 +198,15 @@
 
             <!-- Van hoe laat tot hoe laat reist hij?    -->
             <select class="inputStation" name="tijd" id="tijd">
-                <option value="07:00" disabled>07:00</option>
-                <option value="08:00" disabled>08:00</option>
-                <option value="09:00" disabled>09:00</option>
-                <option value="10:00" disabled>10:00</option>
-                <option value="11:00" disabled>11:00</option>
-                <option value="12:00" disabled>12:00</option>
-                <option value="13:00" disabled>13:00</option>
-                <option value="14:00" disabled>14:00</option>
-                <option value="15:00" disabled>15:00</option>
+                <option value="07:00">07:00</option>
+                <option value="08:00">08:00</option>
+                <option value="09:00">09:00</option>
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
                 <option value="16:00" selected>16:00</option>
                 <option value="17:00">17:00</option>
                 <option value="18:00">18:00</option>
@@ -286,6 +317,6 @@
 
 </div>
 
-<script src="final.js"></script>
+<script src="final2.js"></script>
 </body>
 </html>
