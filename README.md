@@ -8,7 +8,7 @@ Live demo: https://randy554.github.io/web-design-1920/final2.html
 
 ## Installatie
 
-```javascript
+```text
  
   #1. clone de repo
   https://github.com/randy554/real-time-web-1920.git
