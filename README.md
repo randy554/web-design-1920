@@ -322,9 +322,9 @@ Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan d
 
 **Wishlist**
 
-  [] Realtime NS api
-  []	Responsive layout
-  []	Riddle of the day social media share
+- [] Realtime NS api
+- [] Responsive layout
+- [] Riddle of the day social media share
 
 # Overig onderzoek
 
