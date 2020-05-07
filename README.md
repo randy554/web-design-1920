@@ -166,7 +166,7 @@ Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
 Met deze bevindingen stelde ik mijzelf deze vraag: 
 
-*Hoe kan Marijn a.d.h.v. zijn voorkeur voor navigeren een datepicker op een efficiënte en prettige manier invullen?*
+> Hoe kan Marijn a.d.h.v. zijn voorkeur voor navigeren een datepicker op een efficiënte en prettige manier invullen?*
 
 Na wat deskresearch & brainstormen eindigde ik met deze schets voor het prototype:
 
