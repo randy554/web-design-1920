@@ -4,6 +4,11 @@ Live demo: https://randy554.github.io/web-design-1920/final2.html
 
 ## Introductie
 
+Voor het vak [Web Design @cmda-minor-web 1920](https://github.com/cmda-minor-web/web-design-1920) had ik de opdracht gekregen om een passend concept te ontwikkelen voor een specifiek persoon. 
+In mij geval was dat Marijn Meijles. Marijn is een programmeur met een motorische beperking. Om tot een passend en exclusief concept te komen voor Marijn, heb ik o.a. onderzoek, tests en iteraties op en voor het 
+concept uitgevoerd. Het eindproduct is een customized NS-reisplanner die Marijn voornamelijk kan gebruiken om zijn reizen van en naar werk te plannen. Hieronder vindt je het eindproduct en de weg hier naar toe. 
+
+
 ![marijn reisplanner](docs/img/Marijnreisplanner.png)
 
 ## Installatie
