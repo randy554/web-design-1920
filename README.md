@@ -383,17 +383,6 @@ Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan d
 
 </details>
 
-Alle prototypes
-------
-
-<details>
-
-<summary>Prototype 1</summary>
-
-[Prototype 1](https://randy554.github.io/web-design-1920/datepicker.html)
-
-</details>
-
 Wishlist
 ------
 - Error handeling
