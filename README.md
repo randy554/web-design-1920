@@ -40,13 +40,13 @@ Zijn voorkeur in muziek gaat uit naar metal. Dit is ook de reden waarom je hem t
 Wat mij zelf opviel tijdens de eerste kennismaking is dat hij een goed gevoel voor humor heeft.
 
 Door Marijn’s motorische stoornis gebruikt hij apparatuur zoals de pc en smartphone wat anders dan mensen die deze stoornis niet bezitten. 
-Zo bedient hij zijn Macbook voornamelijk met zijn linkerhand aan de rechterkant van het toetsenboard. Hierbij maakt hij zowel gebruik van toetsen als zijn trackpad. 
-De Tab toest gebruikt hij liever niet om te navigeren. Hiervoor maakt hij eerdrer gerbuik van pijltoetsen om te navigeren. 
-Verder is Marijn n het bezit van een iPhone en een MacBook Pro.  Op deze apraraten maakt hij voornamelijk gebruik van Google Chrome en Safari om te browsen.  
+Zo bedient hij zijn MacBook voornamelijk met zijn linkerhand aan de rechterkant van het toetsenboard. Hierbij maakt hij zowel gebruik van toetsen als zijn trackpad. 
+De Tab toets gebruikt hij liever niet om te navigeren. Hiervoor maakt hij eerder gebruik van pijltoetsen om te navigeren. 
+Verder is Marijn n het bezit van een iPhone en een MacBook Pro.  Op deze apparaten maakt hij voornamelijk gebruik van Google Chrome en Safari om te browsen.  
 
 Marijn is naast vader van twee, CTO bij zijn bedrijf. Hij leidt een redelijk druk bestaan. Voor werk reist hij vaak met de trein. 
 Bij het inplannen van deze reizen kan hij daardoor wel wat hulp gebruiken.  
-Het idee is om een persoonlijke reisplanner voor Marijn te ontwerpen, waarbij de nadruk wordt gelegd op de date picker waarmee de een reis gevonden kan worden. 
+Het idee is om een persoonlijke reisplanner voor Marijn te ontwerpen, waarbij de nadruk wordt gelegd op de date picker waarmee een reis gevonden kan worden. 
 
 
 # Exclusive Design Principles
@@ -58,6 +58,8 @@ Hieronder leg ik uit hoe ik deze principes heb toegepast binnen dit project.
 
 
 ### Study situation
+
+> Je bestudeert de persoon zelf, in welke context de persoon jouw product gaat gebruiken en op welke wijze
 
 Zoals eerder omschreven in [User scenario] is Marijn naast vader van twee ook CTO bij zijn bedrijf. Hij heeft een druk bestaan. 
 Daarom zie ik het als passend om bij het ontwerpen van een oplossing uit te kijken naar mogelijkheden om de app efficiënt in gebruik te maken. 
@@ -72,38 +74,54 @@ Dit is mogelijk in de app via de ‘Anders’ menu-item.
 
 ### Ignore conventions
 
+> De meeste huidige conventies waar designers zich aan houden werken niet voor mensen met een beperking. Er moet dus na het bestuderen van de person gekeken worden of het nuttig is om bepaalde conventies aan te houden.
+
 Reguliere date pickers geven gebruikers standaard de mogelijkheid om alle toekomstige tijden en datums in te stellen. 
 In Marijn’s geval is dit niet de ideale manier om hiermee om te gaan. Doordat Marijn hulp krijgt aan station, is hij gelimiteerd in wanneer hij moet aangeven dat hij in een bepaalde trein zit. 
 In zijn geval minimaal een uur van tevoren. Ik heb er daarom voor gekozen om alleen relevante inputwaardes te weergeven per scenario. 
 Zo kan hij bijvoorbeeld onder menu item ‘Vandaag’ alleen aangeven om over 1 of 2 uur te vertrekken.
 
-Zoals bij study situation is aangegeven gebruikt Marijn liever de Tab toets niet en kan hier niet alleen op de standaard tab navigatie gebouwd worden. 
+Zoals bij study situation is aangegeven, gebruikt Marijn de Tab toets liever niet en kan hier dus niet alleen op de standaard tab navigatie worden gebouwd. 
 Daarom zijn de elementen ook zonder Tab te navigeren met de pijltoetsen.
+
+Verder slaat de focus de navigatie boven in over om vervolgens direct naar de eerste invoerveld te gaan.
 
 ### Prioritise identity
 
-Het eindproduct is voor Marijn specifiek bedoeld en niemand anders. Daarom is het belangrijk om zijn ideeën, mening/voorkeuren tijdens het ontwikkelen mee te nemen. 
+> Het eindproduct is voor Marijn specifiek bedoeld en niemand anders. Daarom is het belangrijk om zijn ideeën, mening/voorkeuren tijdens het ontwikkelen mee te nemen. Zo kom je tot nieuwe en relevante openbaringen.  
+
 Het is dus van belang dat het einddoel samen met Marijn wordt behaald. Dit wordt binnen dit project uitgevoerd door wekelijks ideeën in de vorm van een prototype voor te stellen, te observeren en feedback hierop te vragen.
+
+Marijn gaf aan dat hij gebruik maakt van zijn linkerhand om het rechterdeel van zijn toetsenbord te bedienen. 
+En dat hij liever geen gebruik maakt van de TAB-toets om te navigeren. Ook vertelde hij dat hij gebruik maakte van sticky keys. 
+Hierdoor kon ik de navigatie bruikbaar voor hem maken door de toets combinatie shift + de pijltoetsen te gebruiken als navigatie door het formulier.
+
+Marijn had aangegeven dat hij als programmeur gebruikt maakt van de Vim-code editor. Hierdoor had ik het idee gekregen om de site in de stijl van Vim editor te stylen. 
 
 Voor dit onderdeel heb ik vooral gekeken naar Marijn als persoon. Met name zijn achtergrond in techniek en zijn goede gevoel voor humor. 
 Dit heeft geresulteerd in editor styling van de datepicker en de ‘riddle of the day’ content. Beide zijn door hem heel goed ontvangen. 
 
 ### Add nonsense
 
-Websites/apps ontwerpen voor mensen met een beperking is voor veel designers vaak onbekend terrein. 
-Door hier en daar ‘onzinnige’ dingen toe te voegen aan een concept kun je tot interessante ideeën komen. 
+> Websites/apps ontwerpen voor mensen met een beperking is voor veel designers vaak onbekend terrein. Door hier en daar ‘onzinnige’ dingen toe te voegen aan een concept kun je tot interessante ideeën komen.
+
 Vaak ook niet en dat is niet per se erg, het is ook gewoon leuk om af en toe iets anders te doen binnen een project. 
 Het eerdergenoemde ‘riddle of the day’ valt ook onder dit kopje. 
 Hoewel het in de laatste test heel goed werd ontvangen, gaf Marijn na het vragen van feedback hierover aan dat de positie misschien verplaatst kan worden omdat het misschien in de weg kan zitten als hij echt haast heeft. 
 Dat is zeer terecht met de content waarmee er getest werd. Maar hoe zit dit met content die als herinnering kan dienen? 
-Ik had dit met meer tijd willen testen. 
-Verder ben ik met de ‘nonsense’ verder gegaan binnen de context van de editor styling. 
-Door velden waar er aanpassingen gemaakt kunnen worden bij hover de cursor te veranderen in een editor cursor. 
+Ik had dit met meer tijd willen testen.
+ 
+Verder ben ik met de ‘nonsense’ verder gegaan binnen de context van de editor styling. Door velden waar er aanpassingen gemaakt kunnen worden, wordt bij hover de cursor verandert in een Vim editor cursor. 
 
 # User Tests
 
 Test week 1 (8 April) 
 ------
+
+<details>
+
+<summary>Test week 1</summary>
+
 #### Wie is Marijn Meijles)
 
 Marijn is een programmeur, vader van twee kinderen en heeft een motorische stoornis. Marijn omschrijft zichzelf als een bedreven persoon. Een analytisch persoon die een hekel heeft aan mensen die niet de tijd nemen om na te 
@@ -117,7 +135,7 @@ gezamenlijk een aantal vragen bedacht die wij relevant achtte. Om meer inzicht t
 
 ![bevindingen](docs/img/deskresearch_Marijn%20.png)
 
-Verder hadden wij als groep één prototype die door Marijn gestest moest 
+Verder hadden wij als groep één prototype die door Marijn getest moest 
 worden. Ook hadden wij één persoon aangewezen die al onze vragen via de webcam & mic ging stellen. In het begin van het 
 gesprek werden er vragen gesteld om Marijn als persoon beter te leren kennen. Dit waren vragen als hoe hij zichzelf zou 
 omschrijven, wat hij in zijn vrije tijd doet en wat zijn voorkeur in muziek is. Na dit werden er vragen gesteld over zijn
@@ -136,6 +154,7 @@ de targets groot genoeg waren was dit minder een probleem om hier gebruik van te
 altijd goede feedback was na het uitvoeren van een handeling of dat er geen toelichting stond bij die input waardoor de opdracht
 af en toe onduidelijk kon zijn.    
 
+**Bevindingen**
 
 #### Hoe ging de test
 
@@ -151,17 +170,18 @@ zijn als:
 - tijdens de prototype test gebruik gemaakt kan worden van screenrecording
 - tijd voor handelingen in de gaten gehouden kan worden
 
+</details>
 
 Test week 2 (15 April) 
 ------
 Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
--	Marijn is papa van 2 en een drukke CTO
+-	Marijn is papa van twee en een drukke CTO
 -	Favoriete muziekgenre is metal
 -	Schrikt niet snel van een technische uitdaging
 -	Gebruikt Google Chrome/Safari op Apple devices (MacBook/IPhone).
 -	Marijn gebruikt voornamelijk zijn linkerhand aan de rechterkant van het toetsenbord
--	Maakt het meest gebruik van HJKL -en pijltoetsen, zijn trackpad en sticky keys.
+-	Maakt het meest gebruik van `HJKL` -en `pijltoetsen`, zijn trackpad en sticky keys.
 
 
 Met deze bevindingen stelde ik mijzelf deze vraag: 
@@ -320,19 +340,20 @@ Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan d
 *	Popup verplaatsen 
 
 
-**Wishlist**
-
-- [] Realtime NS api
-- [] Responsive layout
-- [] Riddle of the day social media share
+Wishlist
+------
+- Realtime NS api
+- Responsive layout
+- Riddle of the day social media share
 
 # Overig onderzoek
 
 <details>
 
-<summary>Color constrast checken & Color picker</summary>
+<summary>Constrast checker & Color picker</summary>
 
-Contrast checker
+Toen Marijn in test week 3 aangaf dat de achtergrondskleuren van de invoervelden niet zo goed zichtbaar waren, had ik 
+door middel van deskresearch nieuwe kleuren geselecteerd en deze getest op contrast met een aangeranden tool van `W3C`. 
 
 ![Contrast checker](docs/img/contrast_check.png)
 
@@ -345,6 +366,8 @@ Color picker
 <details>
 
 <summary>VI Themes</summary>
+
+Voor het stylen van de pagina heb ik door middel van deskresearch inspiratie op gedaan bij bestaande themas van de Vim editor.
 
 Theme 1
 
