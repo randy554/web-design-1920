@@ -39,19 +39,19 @@ concept uitgevoerd. Het eindproduct is een customized NS-reisplanner die Marijn 
 
 ## User Scenario
 
-Marijn is een programmeur, vader van twee kinderen en heeft een motorische stoornis. Marijn omschrijft zichzelf als een bedreven persoon.
+`Marijn Meijles` is een programmeur, vader van twee kinderen en heeft een `motorische stoornis`. Marijn omschrijft zichzelf als een bedreven persoon.
 Een analytisch persoon die een hekel heeft aan mensen die niet de tijd nemen om na te denken. Kwa humeur is hij meestal in een opgewekte stemming. 
 Zijn voorkeur in muziek gaat uit naar metal. Dit is ook de reden waarom je hem tegen het lijf zou kunnen lopen bij Rockcity Eindhoven. 
 Wat mij zelf opviel tijdens de eerste kennismaking is dat hij een goed gevoel voor humor heeft.
 
-Door Marijn’s motorische stoornis gebruikt hij apparatuur zoals de pc en smartphone wat anders dan mensen die deze stoornis niet bezitten. 
-Zo bedient hij zijn MacBook voornamelijk met zijn linkerhand aan de rechterkant van het toetsenboard. Hierbij maakt hij zowel gebruik van toetsen als zijn trackpad. 
+Door Marijn’s `motorische stoornis` gebruikt hij apparatuur zoals de pc en smartphone wat anders dan mensen die deze stoornis niet bezitten. 
+Zo bedient hij zijn MacBook voornamelijk met `zijn linkerhand aan de rechterkant van het toetsenboard`. Hierbij maakt hij `zowel gebruik van toetsen als zijn trackpad`. 
 De Tab toets gebruikt hij liever niet om te navigeren. Hiervoor maakt hij eerder gebruik van pijltoetsen om te navigeren. 
 Verder is Marijn n het bezit van een iPhone en een MacBook Pro.  Op deze apparaten maakt hij voornamelijk gebruik van Google Chrome en Safari om te browsen.  
 
-Marijn is naast vader van twee, CTO bij zijn bedrijf. Hij leidt een redelijk druk bestaan. Voor werk reist hij vaak met de trein. 
+Marijn is naast vader van twee, CTO bij zijn bedrijf. Hij leidt een redelijk `druk bestaan`. Voor werk `reist hij vaak met de trein`. 
 Bij het inplannen van deze reizen kan hij daardoor wel wat hulp gebruiken.  
-Het idee is om een persoonlijke reisplanner voor Marijn te ontwerpen, waarbij de nadruk wordt gelegd op de date picker waarmee een reis gevonden kan worden. 
+Het idee is om een `persoonlijke NS reisplanner` voor Marijn te ontwerpen, waarbij de nadruk wordt gelegd op de date picker waarmee een reis gevonden kan worden. 
 
 
 # Exclusive Design Principles
@@ -144,7 +144,7 @@ omschrijven, wat hij in zijn vrije tijd doet en wat zijn voorkeur in muziek is. 
 gebruik van apparatuur en software. Zo gaf hij aan gebruik te maken van een MacBook en een iPhone XR die draaien op 
 OS X en iOS. Ook gaf hij aan voornamelijk gebruik te maken van Google Chrome en Safari, en dat hij voor 
 testdoeleinde bereid was om andere browsers te installeren. Hierna volgde er vragen die over hij op dit moment navigeert
-op websites. Hierbij vertelde Marijn dat hij veel gebruik maakte van zijn linkerhand aan de rechterkant van het toetsenbord. 
+op websites. Hierbij vertelde Marijn dat hij veel gebruik maakte van zijn `linkerhand aan de rechterkant van het toetsenbord. 
 Hij maakt hier voornamelijk gebruik van de HJKL en pijltoetsen om te navigeren. Ook gaf hij aan weinig gebruik te maken van de TAB toets maar in plaats
 daarvan de Spacebar Toets. Ook gaf hij aan gebruik maakt van sticky keys (hierbij blijft een toets ingedrukt totdat er
 een vervolg toets wordt ingedrukt).
@@ -379,7 +379,13 @@ Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan d
 **Verbeteringen na Test 3**
 
 *	Kleurencontrast inputvelden aanpassen
+*   Toetsenbord controls
 *	Popup verplaatsen 
+
+**Final prototype 3**
+
+![marijn reisplanner](docs/img/Marijnreisplanner.png)
+
 
 </details>
 
