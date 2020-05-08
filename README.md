@@ -158,6 +158,16 @@ af en toe onduidelijk kon zijn.
 
 **Bevindingen**
 
+-	Marijn is papa van twee 
+-   Marijn is CTO bij zijn bedrijf
+-   Marijn leidt een druk bestaan
+-   Marijn woont in Eindhoven en werkt in Amsterdam 
+-	Favoriete muziekgenre is metal
+-	Schrikt niet snel van een technische uitdaging
+-	Gebruikt Google Chrome/Safari op Apple devices (MacBook/IPhone).
+-	Marijn gebruikt voornamelijk zijn linkerhand aan de rechterkant van het toetsenbord
+-	Maakt het meest gebruik van `HJKL` -en `pijltoetsen`, zijn trackpad en sticky keys.
+
 #### Hoe ging de test
 
 Begin van de test hadden we wat problemen om Marijn te verstaan. Dit werdt veel beter toen hij van
@@ -179,7 +189,7 @@ zijn als:
 
 <summary>Test week 2 (15 April) </summary>
 
-Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
+Uit test 1 kwamen een aantal grote `bevindingen` naar voren, namelijk:
 
 -	Marijn is papa van twee en een drukke CTO
 -	Favoriete muziekgenre is metal
@@ -254,11 +264,12 @@ Dus alleen een default is niet voldoende.
 
 Tijdens de test had ik last van internetproblemen. 
 De test verliep hierdoor allesbehalve naar behoren. Ik kon hierdoor Martijn niet verstaan en hij mij ook niet. 
-Hierdoor kon ik niet meteen het regie nemen met de test zoals ik had gepland. 
+Hierdoor kon ik niet meteen het regie nemen met de test zoals ik dat had gepland. 
 Het gevolg hierdoor was dat hij alvast van start ging en scenario’s ging uitproberen die ik niet per se had voorbereid. 
 Hierdoor werden er wel fouten ontdekt zoals invoerwaardes die niet helemaal logisch waren in een bepaalde context. 
 Gelukkig was er achteraf nog de ruimte om de test rustig doorlopen met Martijn en hem hierdoor te kunnen observeren en vragen op feedback.  
-De test deed naar mij gevoel over het algemeen best wel lang. Ik denk dat dit een combinatie was van dat we niet een goed overzicht hadden van wie er allemaal nog aan de beurt moest komen en hoelang de test zou gaan duren. 
+
+De tests als groep deed naar mij gevoel over het algemeen best wel lang. Ik denk dat dit een combinatie was van dat we niet een goed overzicht hadden van wie er allemaal nog aan de beurt moest komen en hoelang de test zou gaan duren. 
 
 Voor de volgende keer zou het handig zijn als:
 
@@ -276,9 +287,24 @@ Voor de volgende keer zou het handig zijn als:
 
 De test met Marijn begon weer stip om 16:00 uur. Vasilis had na feedback van vorige week weer de moeite gedaan om bij Marijn op locatie te gaan en de test op te zetten. De test ging naar mij gevoel beter dan vorige week (test 2). Vooral vlotter naar mijn gevoel. Mensen waren tijdig aanwezig, het opzetten van de test verliep sneller en ook verliepen de gesprekken sneller naar mij gevoel. Ik kreeg het idee dat mensen beter wisten wat ze wilde weten. 
 
+**Iteratie prototype 1**
+
+Uit de voorgaande test kwam vooral naar voren dat de context waarin bepaalde elementen zich bevonden niet altijd helemaal duidelijk waren voor Marijn. 
+Hierdoor heb ik het concept omgegooid en een ander benaderingen genomen om opties te kunnen presenteren aan Marijn.
+Mijn grootste uitdaging was dus om de knoppen in juiste context te plaatsen. Dit was mijn eerste poging om dit voor elkaar te krijgen:
+
+[Datepicker](https://randy554.github.io/web-design-1920/datepicker4.html)
+
+![Datepicker](docs/img/Marijndatepicker_datepicker4.png)
+
+Hoewel dit een vooruitgang was op de vorige versie, kwam ik na feedback van een collega-student achter dat dit nog steeds visueel verwarrend kon zijn.
+Ook werkte het technisch niet helemaal naar behoren. En uit de vorige test had ik geleerd dat het beste handig is dat wat je laat zien wel werkt. 
+Ik ben daarom opnieuw begonnen (Ziet iteratie prototype 2 voor het resultaat). 
+
 **Testplan**
 
-Uit de voorgaande test kwam vooral naar voren dat de context waarin bepaalde elementen zich bevonden niet altijd helemaal duidelijk waren. Hierdoor heb ik het concept omgegooid en een ander benaderingen genomen om opties te kunnen presenteren aan Marijn. Uit de test wil ik graag zien of Marijn de context snapt van de opties die worden gepresenteerd. Ik wil kijken of Marijn zijn weg kan vinden bij het plannen van een reis. Ik wil kijken of Marijn redelijk snel kan navigeren. Verder wil ik wat Marijn van het concept ‘riddle of the day’ vindt. Ook wil ik weten wat Marijn van de code editor layout vindt. 
+ 
+Uit de test wil ik graag zien of Marijn de context snapt van de opties die worden gepresenteerd. Ik wil kijken of Marijn zijn weg kan vinden bij het plannen van een reis. Ik wil kijken of Marijn redelijk snel kan navigeren. Verder wil ik wat Marijn van het concept ‘riddle of the day’ vindt. Ook wil ik weten wat Marijn van de code editor layout vindt. 
 
 ````text
 Introductie
@@ -313,6 +339,14 @@ Vragen
 *	Zijn er nog andere verbeteringen of ideeën die je mist en toegevoegd zou willen zien?
 
 ````
+**Iteratie prototype 2**
+
+##### Pop-up met een dagelijkse raadsel
+
+![Prototype](docs/img/Marijnreisplanner_result1_popup.png)
+
+##### Prototype
+![Prototype](docs/img/Marijnreisplanner_result1.png)
 
 **Bevindingen**
 
@@ -349,10 +383,22 @@ Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan d
 
 </details>
 
+Alle prototypes
+------
+
+<details>
+
+<summary>Prototype 1</summary>
+
+[Prototype 1](https://randy554.github.io/web-design-1920/datepicker.html)
+
+</details>
+
 Wishlist
 ------
+- Error handeling
+- Show results on changed input
 - Realtime NS api
-- Responsive layout
 - Riddle of the day social media share
 
 # Overig onderzoek
