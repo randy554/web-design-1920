@@ -115,12 +115,9 @@ Verder ben ik met de ‘nonsense’ verder gegaan binnen de context van de edito
 
 # User Tests
 
-Test week 1 (8 April) 
-------
-
 <details>
 
-<summary>Test week 1</summary>
+<summary>Test week 1 (8 April) </summary>
 
 #### Wie is Marijn Meijles)
 
@@ -172,8 +169,11 @@ zijn als:
 
 </details>
 
-Test week 2 (15 April) 
-------
+
+<details>
+
+<summary>Test week 2 (15 April) </summary>
+
 Uit test 1 kwamen een aantal grote bevindingen naar voren, namelijk:
 
 -	Marijn is papa van twee en een drukke CTO
@@ -239,7 +239,7 @@ Verder gaf Marijn ook aan dat hij standaard op maandag 09:30 van Eindhoven naar 
 Hij heeft af en toe ook aparte reizen die hij maakt zoals af en toe zit hij in een hotel. Dus hier moet ook rekening mee worden gehouden dat hij niet alleen op standaard dagen tijden reist. 
 Dus alleen een default is niet voldoende.
 
-#### Uit feedback op werk van andere:
+**Relevante observaties en feedback bij test van collega’s**
 
 * Knoppen en andere elementen hoeven niet overdreven groot gemaakt te worden voor minder travel, hij irriteert zich hier eerder aan. 
 
@@ -261,9 +261,11 @@ Voor de volgende keer zou het handig zijn als:
 * Zorg dat de elementen die je in je prototype gebruikt goed werkend zijn of geeft dit bij voorbaat aan.
 * Presenteer een overzicht met alle deelnemers aan de test in volgorde en hoeveel tijd iedere test ongeveer gaat/mag duren.
 
+</details>
 
-Test week 3 (22 April)
-------
+<details>
+
+<summary>Test week 3 (22 April) </summary>
 
 **De test**
 
@@ -334,11 +336,13 @@ Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan d
 
 *	Marijn gaf aan dat elke actie minder is beter is. Onnodige wizard bij prototype van tester.
 
+
 **Verbeteringen na Test 3**
 
 *	Kleurencontrast inputvelden aanpassen
 *	Popup verplaatsen 
 
+</details>
 
 Wishlist
 ------
