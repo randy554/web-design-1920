@@ -33,6 +33,7 @@ concept uitgevoerd. Het eindproduct is een customized NS-reisplanner die Marijn 
 * [Exclusive Design Principles](#exclusive-design-principles)
 * [User Tests](#user-tests)
 * [Overig Onderzoek](#overig-onderzoek)
+* [Conclusie](#conclusie)
 * [Bronnen](#bronnen)
 * [Licentie](#licentie)
 
@@ -389,12 +390,47 @@ Marijn vond het idee van de ‘riddle of the day’ wel leuk maar, gaf ook aan d
 
 </details>
 
-Wishlist
-------
-- Error handeling
-- Show results on changed input
-- Realtime NS api
-- Riddle of the day social media share
+
+
+# Conclusie
+
+<details>
+
+<summary>Conclusie </summary>
+
+Dit was een zeer leerzame vak. Uit voorgaande vakken heb ik wel eerder eindgebruikers mogen observeren,
+testen en interviewen. Toch was dit wel een hele andere ervaring. Dit product moest voor één specifiek
+persoon ontwikkelt worden en dus niet voor een doelgroep. Dat betekent dus geen gemiddelde/globale aannames 
+maar een meer persoonlijk begrip van de persoon voor wie je ontwikkelt. Ik begrijp nu beter waarom het 
+betrekken van de eindgebruiker in dit geval alleen maar meer belangrijk is `(prioritise identity)`.
+
+Een ander nieuwe ervaring is dat de persoon waarvoor het concept ontworpen moest worden, een motorische
+stoornis heeft. Hierdoor is het wat lastiger om terug te vallen op eerdere ervaringen en moet je dus de 
+context en doelen van de gebruiker goed proberen te begrijpen. Zo kon ik  mij niet goed voorstellen
+welke input device Marijn gebruikte om zijn pc te navigeren.
+
+Binnen dit project hebben wij in een relatief korte tijd een werkend concept moeten ontwikkelen. Tussen
+het begin en einde van het project hebben wij meerdere concepten moeten voorleggen aan onze eindgebruiker.
+Met het voornaamste doel om onze concepten te valideren en te verbeteren. Ik heb geleerd in dit project 
+dat omdat je relatief weinig tijd had en pogingen had om concepten te testen bij de eindgebruiker, dat
+je vooraf goed voor ogen moet hebben wat je geleerd hebt en wat je wil testen. En dit liever fijn en klein kunt 
+houden. Dit geeft je de mogelijkheid om die ene feature dan beter te testen en door te itereren. Ook technisch 
+gezien kun je het het beste lean houden en niet de moeilijkste weg moet gaan kiezen.
+
+Testen op afstand was voor mij ook nieuw. Zoals ik eerder had vermeld had ik bij een test last van technische
+problemen. Terwijl het vlak daarvoor niks aan de hand was. Gelukkig was dat later wel hersteld maar, 
+dat geeft gelijk wel aan hoe afhankelijk je van de techniek bent. Marijn is zelf technisch onderlegd dus
+dat wel mooi meegenomen bij het gebruiken van programma's als Jitsi en testen van prototypes. Ook hadden
+wij veel hulp ontvangen van Vasilis :-). Hij hielp bij het opzetten en begeleiden van de test, zoals het opzetten 
+van de webcam waardoor we de handbewegingen van Marijn konden volgen. Een ander belangrijk inbreng was het
+herhalen van Martijn zijn commentaar. Die kon soms onduidelijk zijn.
+
+Ik ben uiteindelijk wel positief over het eindresultaat. In week 2 van testen kreeg ik te horen dat van
+Marijn dat mijn prototype niet volgbaar was. Ik heb toen een aantal keer moeten itereren om tot het prototype
+te komen van week 3. Hier was hij weer helemaal enthousiast over. Achteraf gezien heeft de kritische feedback in 
+week 2 mij goed geholpen om punten die ik over het hoofd zag weer te herkennen. 
+
+</details>
 
 # Overig onderzoek
 
@@ -428,6 +464,13 @@ Theme 2
 ![Theme 2](docs/img/themas/theme2.png)
 
 </details>
+
+Wishlist
+------
+- Error handeling
+- Show results on changed input
+- Realtime NS api
+- Riddle of the day social media share
  
 # Bronnen
 
